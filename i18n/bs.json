@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"lastuserlogin": "Posljednja prijava korisnika",
+	"lastuserlogin-desc": "Prikazuje kada se korisnik posljednji put prijavio",
+	"lastuserlogin-userid": "Korisničko ime",
+	"lastuserlogin-username": "Pravo ime",
+	"lastuserlogin-useremail": "Korisnički e-mail",
+	"lastuserlogin-lastlogin": "Posljednja prijava",
+	"lastuserlogin-daysago": "dana ranije",
+	"right-lastlogin": "Pregled kada se korisnik posljednji put prijavio"
+}

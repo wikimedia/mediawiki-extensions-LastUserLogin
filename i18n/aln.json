@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mdupont"
+		]
+	},
+	"lastuserlogin": "login përdoruesit të fundit",
+	"lastuserlogin-desc": "Shfaq hera e fundit e një përdorues të regjistruar",
+	"lastuserlogin-userid": "Emri i përdoruesit",
+	"lastuserlogin-username": "Emri i vërtetë",
+	"lastuserlogin-useremail": "e-mail User",
+	"lastuserlogin-lastlogin": "login fundit",
+	"lastuserlogin-daysago": "Ditë më parë",
+	"right-lastlogin": "Shiko hera e fundit e një përdorues të regjistruar"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hosiryuhosi",
+			"Naohiro19",
+			"Shirayuki"
+		]
+	},
+	"lastuserlogin": "利用者の最終ログイン",
+	"lastuserlogin-desc": "利用者が最後にログインした日時を表示する",
+	"lastuserlogin-userid": "利用者名",
+	"lastuserlogin-username": "本名",
+	"lastuserlogin-useremail": "メールアドレス",
+	"lastuserlogin-lastlogin": "最終ログイン",
+	"lastuserlogin-daysago": "経過日数",
+	"right-lastlogin": "利用者が最後にログインした日時を閲覧"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Naudefj"
+		]
+	},
+	"lastuserlogin": "Laaste aanmelding van gebruiker",
+	"lastuserlogin-desc": "Wys die laaste keer wat 'n gebruiker aangeteken het",
+	"lastuserlogin-userid": "Gebruikersnaam",
+	"lastuserlogin-username": "Regte naam",
+	"lastuserlogin-useremail": "E-pos",
+	"lastuserlogin-lastlogin": "Laaste aanmelding",
+	"lastuserlogin-daysago": "Aantal dae gelede",
+	"right-lastlogin": "Wys laaste keer wat 'n gebruiker aangeteken het"
+}

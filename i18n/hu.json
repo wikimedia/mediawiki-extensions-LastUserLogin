@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani"
+		]
+	},
+	"lastuserlogin": "A felhasználó legutóbbi bejelentkezése",
+	"lastuserlogin-desc": "Megjeleníti, hogy mikor jelentkezett be legutóbb egy adott felhasználó",
+	"lastuserlogin-userid": "Felhasználónév",
+	"lastuserlogin-username": "Valódi név",
+	"lastuserlogin-useremail": "E-mail cím",
+	"lastuserlogin-lastlogin": "Legutóbbi bejelentkezés",
+	"lastuserlogin-daysago": "nappal ezelőtt",
+	"right-lastlogin": "a felhasználó legutóbbi bejelentkezési idejének megtekintése"
+}

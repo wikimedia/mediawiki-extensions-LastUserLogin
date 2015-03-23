@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dafer45",
+			"WikiPhoenix"
+		]
+	},
+	"lastuserlogin": "Senaste användarinloggning",
+	"lastuserlogin-desc": "Visar den senaste gången en användare loggade in",
+	"lastuserlogin-userid": "Användarnamn",
+	"lastuserlogin-username": "Riktigt namn",
+	"lastuserlogin-useremail": "Användar-e-post",
+	"lastuserlogin-lastlogin": "Senaste inloggning",
+	"lastuserlogin-daysago": "Dagar sedan",
+	"right-lastlogin": "Visa den senaste gången en användare loggade in"
+}

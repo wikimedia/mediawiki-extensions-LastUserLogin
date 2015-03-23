@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"lastuserlogin": "Последна најава на корисникот",
+	"lastuserlogin-desc": "Го прикажува последниот пат кога се најавил корисникот",
+	"lastuserlogin-userid": "Корисничко име",
+	"lastuserlogin-username": "Вистинско име",
+	"lastuserlogin-useremail": "Корисничка е-пошта",
+	"lastuserlogin-lastlogin": "Последна најава",
+	"lastuserlogin-daysago": "Пред (денови)",
+	"right-lastlogin": "Проверка кога последен пат се најавил корисникот"
+}

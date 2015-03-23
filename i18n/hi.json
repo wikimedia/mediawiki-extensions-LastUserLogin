@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"रोहित रावत"
+		]
+	},
+	"lastuserlogin": "अन्तिम प्रयोक्ता लॉगिन",
+	"lastuserlogin-desc": "किसी प्रयोक्ता के अन्तिम लॉगिन को दर्शाता है",
+	"lastuserlogin-userid": "प्रयोक्तानाम",
+	"lastuserlogin-username": "वास्तविक नाम",
+	"lastuserlogin-useremail": "प्रयोक्ता ईमेल",
+	"lastuserlogin-lastlogin": "अन्तिम लॉगिन",
+	"lastuserlogin-daysago": "दिन पहले",
+	"right-lastlogin": "किसी प्रयोक्ता के अन्तिम लॉगिन को देखें"
+}

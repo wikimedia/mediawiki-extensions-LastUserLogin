@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nghtwlkr"
+		]
+	},
+	"lastuserlogin": "Siste brukerinnlogging",
+	"lastuserlogin-desc": "Viser den siste gangen en bruker logget inn",
+	"lastuserlogin-userid": "Brukernavn",
+	"lastuserlogin-username": "Virkelig navn",
+	"lastuserlogin-useremail": "Bruker-e-post",
+	"lastuserlogin-lastlogin": "Siste innlogging",
+	"lastuserlogin-daysago": "Dager siden",
+	"right-lastlogin": "Se den siste gangen en bruker logget inn"
+}

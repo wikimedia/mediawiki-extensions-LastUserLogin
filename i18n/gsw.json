@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Holder"
+		]
+	},
+	"lastuserlogin": "Letschti Aamäldig vum Bentutzer",
+	"lastuserlogin-desc": "Zeigt d Zyt aa, wu ne Benutzer sich s letscht Mol aagmäldet gha het",
+	"lastuserlogin-userid": "Benutzername",
+	"lastuserlogin-username": "Echte Name",
+	"lastuserlogin-useremail": "E-Mail",
+	"lastuserlogin-lastlogin": "Letschti Aamäldig",
+	"lastuserlogin-daysago": "Täg",
+	"right-lastlogin": "D Zyt aaluege, wu ne Benutzer sich s letscht Mol aagmäldet gha het"
+}

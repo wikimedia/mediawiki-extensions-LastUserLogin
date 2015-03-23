@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"lastuserlogin-desc": "{{desc}}",
+	"lastuserlogin-username": "{{Identical|Real name}}",
+	"lastuserlogin-daysago": "This message is used as a column header in a table.",
+	"right-lastlogin": "{{doc-right|lastlogin}}"
+}

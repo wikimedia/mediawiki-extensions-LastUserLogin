@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iwan Novirion"
+		]
+	},
+	"lastuserlogin": "Masuklog  terakhir pengguna",
+	"lastuserlogin-desc": "Menampilkan waktu terakhir pengguna masuklog",
+	"lastuserlogin-userid": "Nama pengguna",
+	"lastuserlogin-username": "Nama asli",
+	"lastuserlogin-useremail": "Surel pengguna",
+	"lastuserlogin-lastlogin": "Terakhir masuklog",
+	"lastuserlogin-daysago": "Beberapa hari yang lalu",
+	"right-lastlogin": "Lihat terakhir kali pengguna masuklog"
+}

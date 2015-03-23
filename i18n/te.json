@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Veeven"
+		]
+	},
+	"lastuserlogin": "వాడుకరి చివరి ప్రవేశం",
+	"lastuserlogin-desc": "ఒక వాడుకరి చివరిసారి ప్రవేశించిన సమయాన్ని చూపిస్తుంది",
+	"lastuserlogin-userid": "వాడుకరి పేరు",
+	"lastuserlogin-username": "అసలు పేరు",
+	"lastuserlogin-useremail": "వాడుకరి ఈమెయిలు",
+	"lastuserlogin-lastlogin": "చివరి ప్రవేశం",
+	"lastuserlogin-daysago": "రోజుల క్రితం",
+	"right-lastlogin": "వాడుకర్లు చివరిసారి ప్రవేశించిన సమయాన్ని చూడగలగడం"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"The Evil IP address"
+		]
+	},
+	"lastuserlogin": "Letzte Anmeldung von Benutzern",
+	"lastuserlogin-desc": "Ermöglicht die Anzeige der letzten Anmeldung von Benutzern",
+	"lastuserlogin-userid": "Benutzername",
+	"lastuserlogin-username": "Bürgerlicher Name",
+	"lastuserlogin-useremail": "E-Mail-Adresse",
+	"lastuserlogin-lastlogin": "Letzte Anmeldung",
+	"lastuserlogin-daysago": "vor Tagen",
+	"right-lastlogin": "Ansehen, wann sich ein Benutzer letztmalig angemeldet hat"
+}

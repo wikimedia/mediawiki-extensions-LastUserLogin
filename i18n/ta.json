@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Karthi.dr"
+		]
+	},
+	"lastuserlogin": "கடைசி பயனர் புகுபதிகை",
+	"lastuserlogin-desc": "கடைசியாகப் பயனர் புகுபதிகை செய்த தேதியைக் காட்டுகிறது",
+	"lastuserlogin-userid": "பயனர் பெயர்",
+	"lastuserlogin-username": "உண்மையான பெயர்",
+	"lastuserlogin-useremail": "பயனர் மின்னஞ்சல்",
+	"lastuserlogin-lastlogin": "கடைசி புகுபதிகை",
+	"lastuserlogin-daysago": "நாட்களுக்கு முன்னர்",
+	"right-lastlogin": "கடைசியாகப் பயனர் புகுபதிகை செய்த தேதியைப் பார்"
+}

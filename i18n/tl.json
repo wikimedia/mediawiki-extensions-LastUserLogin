@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"lastuserlogin": "Paglagda ng huling tagagamit",
+	"lastuserlogin-desc": "Nagpapakita ng huling oras na paglagda ng isang tagagamit",
+	"lastuserlogin-userid": "Pangalan ng tagagamit",
+	"lastuserlogin-username": "Tunay na pangalan",
+	"lastuserlogin-useremail": "E-liham ng tagagamit",
+	"lastuserlogin-lastlogin": "Huling paglagda",
+	"lastuserlogin-daysago": "Nakalipas na mga araw",
+	"right-lastlogin": "Tingnan ang huling oras ng paglagda ng isang tagagamit"
+}

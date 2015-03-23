@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"YaronSh"
+		]
+	},
+	"lastuserlogin": "כניסת המשתמש האחרונה",
+	"lastuserlogin-desc": "הצגת הפעם האחרונה בה המשתמש נכנס",
+	"lastuserlogin-userid": "שם משתמש",
+	"lastuserlogin-username": "שם אמתי",
+	"lastuserlogin-useremail": "דוא״ל המשתמש",
+	"lastuserlogin-lastlogin": "הכניסה האחרונה",
+	"lastuserlogin-daysago": "ימים מאז",
+	"right-lastlogin": "צפייה בפעם האחרונה שבה נכנס המשתמש"
+}

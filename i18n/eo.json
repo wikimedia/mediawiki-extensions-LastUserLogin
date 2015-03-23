@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yekrats"
+		]
+	},
+	"lastuserlogin": "Lasta ensaluto de uzanto",
+	"lastuserlogin-desc": "Montras la lastan fojon kiam uzanto ensalutis",
+	"lastuserlogin-userid": "Salutnomo",
+	"lastuserlogin-username": "Reala nomo",
+	"lastuserlogin-useremail": "Retpoŝto de uzanto",
+	"lastuserlogin-lastlogin": "Lasta ensaluto",
+	"lastuserlogin-daysago": "Antaŭ tagoj",
+	"right-lastlogin": "Vidi la lastan fojon kiam uzanto ensalutis"
+}

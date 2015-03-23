@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Centerlink",
+			"Crt",
+			"Silvonen"
+		]
+	},
+	"lastuserlogin": "Viimeisin käyttäjän kirjautuminen",
+	"lastuserlogin-desc": "Näyttää viimeisimmän kerran, jolloin käyttäjä oli kirjautuneena.",
+	"lastuserlogin-userid": "Käyttäjätunnus",
+	"lastuserlogin-username": "Oikea nimi",
+	"lastuserlogin-useremail": "Käyttäjän sähköposti",
+	"lastuserlogin-lastlogin": "Viimeksi kirjautunut",
+	"lastuserlogin-daysago": "päivää sitten",
+	"right-lastlogin": "Nähdä viimeisin kerta, kun käyttäjä oli kirjautuneena"
+}

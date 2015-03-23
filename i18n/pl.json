@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sp5uhe"
+		]
+	},
+	"lastuserlogin": "Ostatnie zalogowania użytkownika",
+	"lastuserlogin-desc": "Wyświetla datę i czas ostatniego zalogowania się przez użytkownika",
+	"lastuserlogin-userid": "Nazwa użytkownika",
+	"lastuserlogin-username": "Prawdziwa nazwa",
+	"lastuserlogin-useremail": "Adres e‐mail",
+	"lastuserlogin-lastlogin": "Ostatnie zalogowanie",
+	"lastuserlogin-daysago": "dni temu",
+	"right-lastlogin": "Podgląd daty i czasu ostatniego zalogowania się użytkownika"
+}

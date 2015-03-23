@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Александр Сигачёв"
+		]
+	},
+	"lastuserlogin": "Недавние посещения пользователей",
+	"lastuserlogin-desc": "Показывает время последнего входа участника",
+	"lastuserlogin-userid": "Имя пользователя",
+	"lastuserlogin-username": "Настоящее имя",
+	"lastuserlogin-useremail": "Электронная почта",
+	"lastuserlogin-lastlogin": "Недавнее посещение",
+	"lastuserlogin-daysago": "Дней назад",
+	"right-lastlogin": "просмотр времени последнего входа участника"
+}

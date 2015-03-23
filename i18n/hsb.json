@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"lastuserlogin": "Poslednje přizjewjenje wužiwarja",
+	"lastuserlogin-desc": "Pokazuje, hdyž je so wužiwar posledni raz přizjewił",
+	"lastuserlogin-userid": "Wužiwarske mjeno",
+	"lastuserlogin-username": "Woprawdźite mjeno",
+	"lastuserlogin-useremail": "Wužiwarska e-mejl",
+	"lastuserlogin-lastlogin": "Poslednje přizjewjenje",
+	"lastuserlogin-daysago": "Dny",
+	"right-lastlogin": "Pokazać, hdyž so wužiwar posledni raz přizjewił"
+}

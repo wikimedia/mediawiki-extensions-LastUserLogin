@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"គីមស៊្រុន"
+		]
+	},
+	"lastuserlogin": "ការកត់ឈ្មោះចូលចុងក្រោយរបស់អ្នកប្រើប្រាស់",
+	"lastuserlogin-desc": "បង្ហាញពេលវេលាដែលអ្នកប្រើប្រាស់បានកត់ឈ្មោះចូលចុងក្រោយ",
+	"lastuserlogin-userid": "អត្តនាម",
+	"lastuserlogin-username": "ឈ្មោះពិត",
+	"lastuserlogin-useremail": "អ៊ីមែលអ្នកប្រើប្រាស់",
+	"lastuserlogin-lastlogin": "ការកត់ឈ្មោះចូលចុងក្រោយ",
+	"lastuserlogin-daysago": "ថ្ងៃមុន",
+	"right-lastlogin": "មើលពេលវេលាដែលអ្នកប្រើប្រាស់បានកត់ឈ្មោះចូលចុងក្រោយ"
+}

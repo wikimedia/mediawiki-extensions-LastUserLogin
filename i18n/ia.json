@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"lastuserlogin": "Ultime apertura de session",
+	"lastuserlogin-desc": "Monstra le ultime vice que un usator aperiva un session",
+	"lastuserlogin-userid": "Nomine de usator",
+	"lastuserlogin-username": "Nomine real",
+	"lastuserlogin-useremail": "Adresse de e-mail",
+	"lastuserlogin-lastlogin": "Ultime apertura de session",
+	"lastuserlogin-daysago": "Dies retro",
+	"right-lastlogin": "Vider le ultime vice que un usator aperiva un session"
+}

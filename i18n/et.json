@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Avjoska",
+			"Pikne"
+		]
+	},
+	"lastuserlogin-userid": "Kasutajanimi",
+	"lastuserlogin-username": "Tegelik nimi",
+	"lastuserlogin-useremail": "Kasutaja e-posti aadress",
+	"lastuserlogin-lastlogin": "Viimane sisselogimine",
+	"lastuserlogin-daysago": "päeva tagasi"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Translationista"
+		]
+	},
+	"lastuserlogin": "Último acceso de usuario",
+	"lastuserlogin-desc": "Muestra la última vez que se conectó un usuario",
+	"lastuserlogin-userid": "Nombre de usuario",
+	"lastuserlogin-username": "Nombre real",
+	"lastuserlogin-useremail": "Correo electrónico del usuario",
+	"lastuserlogin-lastlogin": "Último acceso",
+	"lastuserlogin-daysago": "Días atrás",
+	"right-lastlogin": "Ver la última vez que un usuario se conectó"
+}

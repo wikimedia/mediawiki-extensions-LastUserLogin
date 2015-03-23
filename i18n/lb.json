@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"lastuserlogin": "Lescht Alogge vu Benotzer",
+	"lastuserlogin-desc": "Weist déi lescht Kéier wou e Benotzer sech ageloggt hat",
+	"lastuserlogin-userid": "Benotzernumm",
+	"lastuserlogin-username": "Richtegen Numm",
+	"lastuserlogin-useremail": "Benotzer E-Mail",
+	"lastuserlogin-lastlogin": "Lescht Aloggen",
+	"lastuserlogin-daysago": "Deeg virdrun",
+	"right-lastlogin": "Déi leschte Kéier weise wou e Benotzer sech ageloggt hat"
+}

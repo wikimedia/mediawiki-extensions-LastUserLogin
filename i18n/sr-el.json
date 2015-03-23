@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"lastuserlogin": "Poslednje logovanje korisnika",
+	"lastuserlogin-desc": "Prikazuje kada se korisnik zadnji put ulogovao",
+	"lastuserlogin-userid": "Korisničko ime",
+	"lastuserlogin-username": "Pravo ime",
+	"lastuserlogin-useremail": "Korisnikova elektronska pošta",
+	"lastuserlogin-lastlogin": "Poslednje logovanje",
+	"lastuserlogin-daysago": "Protekli dani",
+	"right-lastlogin": "Prikazivanje poslednjeg puta kada se neki korisnik ulogovao"
+}

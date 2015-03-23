@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"IAlex"
+		]
+	},
+	"lastuserlogin": "Dernière connexion des utilisateurs",
+	"lastuserlogin-desc": "Affiche la dernière fois qu'un utilisateur s'est connecté",
+	"lastuserlogin-userid": "Nom d’utilisateur",
+	"lastuserlogin-username": "Nom réel",
+	"lastuserlogin-useremail": "Adresse de courriel de l'utilisateur",
+	"lastuserlogin-lastlogin": "Dernière connexion",
+	"lastuserlogin-daysago": "Jours dans le passé",
+	"right-lastlogin": "Voir la dernière fois qu'un utilisateur s'est connecté"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"lastuserlogin": "Laatste aanmeldingen van gebruikers",
+	"lastuserlogin-desc": "Geeft de laatste keer aan dat een gebruiker is aangemeld",
+	"lastuserlogin-userid": "Gebruikersnaam",
+	"lastuserlogin-username": "Echte naam",
+	"lastuserlogin-useremail": "E-mail",
+	"lastuserlogin-lastlogin": "Laatste aanmelding",
+	"lastuserlogin-daysago": "Aantal dagen geleden",
+	"right-lastlogin": "Bekijken wanneer een gebruiker voor de laatste keer heeft aangemeld"
+}

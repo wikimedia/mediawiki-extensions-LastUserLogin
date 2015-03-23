@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"lastuserlogin": "Ùltima intrada ant ël sistema.",
+	"lastuserlogin-desc": "A visualisa l'ùltima vira che n'utent a l'é intrà ant ël sistema",
+	"lastuserlogin-userid": "Nòm utent",
+	"lastuserlogin-username": "Nòm ver",
+	"lastuserlogin-useremail": "Adrëssa ëd pòsta eletrònica dl'utent",
+	"lastuserlogin-lastlogin": "Ùltima intrada ant ël sistema",
+	"lastuserlogin-daysago": "Di fa",
+	"right-lastlogin": "Vëdde l'ùltima vira che n'utent a l'é intrà ant ël sistema"
+}

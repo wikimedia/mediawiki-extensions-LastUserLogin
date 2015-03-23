@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by"
+		]
+	},
+	"lastuserlogin": "Апошні ўваход удзельніка ў сыстэму",
+	"lastuserlogin-desc": "Паказвае час апошняга ўваходу ўдзельніка ў сыстэму",
+	"lastuserlogin-userid": "Імя ўдзельніка",
+	"lastuserlogin-username": "Сапраўднае імя",
+	"lastuserlogin-useremail": "Электронная пошта ўдзельніка",
+	"lastuserlogin-lastlogin": "Апошні ўваход у сыстэму",
+	"lastuserlogin-daysago": "Дзён таму",
+	"right-lastlogin": "прагляд часу апошняга ўваходу ўдзельніка ў сыстэму"
+}

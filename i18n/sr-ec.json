@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Михајло Анђелковић"
+		]
+	},
+	"lastuserlogin": "Последње логовање корисника",
+	"lastuserlogin-desc": "Приказује када се корисник задњи пут улоговао",
+	"lastuserlogin-userid": "Корисничко име",
+	"lastuserlogin-username": "Право име",
+	"lastuserlogin-useremail": "Корисникова електронска пошта",
+	"lastuserlogin-lastlogin": "Последње логовање",
+	"lastuserlogin-daysago": "Протекли дани",
+	"right-lastlogin": "Приказивање последњег пута када се неки корисник улоговао"
+}

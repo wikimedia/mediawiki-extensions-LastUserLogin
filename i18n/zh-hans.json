@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gaoxuewei"
+		]
+	},
+	"lastuserlogin": "最后一次用户登录",
+	"lastuserlogin-desc": "显示用户最后一次登录的时间",
+	"lastuserlogin-userid": "用户名",
+	"lastuserlogin-username": "真实姓名",
+	"lastuserlogin-useremail": "用户电子邮件",
+	"lastuserlogin-lastlogin": "最后一次登录",
+	"lastuserlogin-daysago": "天之前",
+	"right-lastlogin": "查看用户最后一次登录时间"
+}

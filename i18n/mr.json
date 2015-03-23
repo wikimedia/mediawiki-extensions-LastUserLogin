@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"V.narsikar"
+		]
+	},
+	"lastuserlogin": "दाखल झालेला शेवटचा सदस्य",
+	"lastuserlogin-desc": "सदस्य दाखल झाल्याची शेवटवी वेळ दाखविते",
+	"lastuserlogin-useremail": "सदस्याचा विपत्रपत्ता",
+	"lastuserlogin-lastlogin": "शेवटी कधी दाखल झाला",
+	"lastuserlogin-daysago": "दिवसांपूर्वी",
+	"right-lastlogin": "सदस्य शेवटी कधी दाखल झाला ती वेळ बघा"
+}

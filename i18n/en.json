@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Justin G. Cramer",
+			"Danila Ulyanov",
+			"Thomas Klein"
+		]
+	},
+	"lastuserlogin": "Last user login",
+	"lastuserlogin-desc": "Displays the last time a user logged in",
+	"lastuserlogin-userid": "Username",
+	"lastuserlogin-username": "Real name",
+	"lastuserlogin-useremail": "User email",
+	"lastuserlogin-lastlogin": "Last login",
+	"lastuserlogin-daysago": "Days ago",
+	"lastuserlogin-nousers": "No users found.",
+	"right-lastlogin": "View the last time a user logged in"
+}

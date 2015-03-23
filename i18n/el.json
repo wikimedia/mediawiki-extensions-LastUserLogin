@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dead3y3"
+		]
+	},
+	"lastuserlogin": "Τελευταία σύνδεση χρήστη",
+	"lastuserlogin-desc": "Εμφανίζει την τελευταία φορά που ένας χρήστης συνδέθηκε",
+	"lastuserlogin-userid": "Όνομα χρήστη",
+	"lastuserlogin-username": "Πραγματικό όνομα",
+	"lastuserlogin-useremail": "Email χρήστη",
+	"lastuserlogin-lastlogin": "Τελευταία σύνδεση",
+	"lastuserlogin-daysago": "Μέρες πριν",
+	"right-lastlogin": "Δείτε την τελευταία φορά που ένας χρήστης συνδέθηκε"
+}
