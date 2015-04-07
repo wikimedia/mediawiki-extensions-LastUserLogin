@@ -1,7 +1,5 @@
 {
-	"@metadata": {
-		"authors": []
-	},
+	"@metadata": [],
 	"lastuserlogin": "Poslednje logovanje korisnika",
 	"lastuserlogin-desc": "Prikazuje kada se korisnik zadnji put ulogovao",
 	"lastuserlogin-userid": "Korisničko ime",

@@ -5,6 +5,7 @@
  * @file
  * @ingroup Extensions
  */
+// @codingStandardsIgnoreFile
 
 $specialPageAliases = array();
 
@@ -23,7 +24,7 @@ $specialPageAliases['arz'] = array(
 	'LastUserLogin' => array( 'آخر_دخول_لليوزر' ),
 );
 
-/** Assamese (অসমীয়া) */
+/** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
 	'LastUserLogin' => array( 'সদস্যৰ_অন্তিম_প্ৰৱেশ' ),
 );
@@ -113,12 +114,12 @@ $specialPageAliases['ml'] = array(
 	'LastUserLogin' => array( 'അവസാന‌‌ഉപയോക്തൃപ്രവേശം' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'LastUserLogin' => array( 'Siste_brukerinnlogging' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'LastUserLogin' => array( 'Leste_gebrukersanmelding' ),
 );
