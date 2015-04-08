@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gaoxuewei"
+			"Gaoxuewei",
+			"Liuxinyu970226"
 		]
 	},
 	"lastuserlogin": "最后一次用户登录",
@@ -11,5 +12,6 @@
 	"lastuserlogin-useremail": "用户电子邮件",
 	"lastuserlogin-lastlogin": "最后一次登录",
 	"lastuserlogin-daysago": "天之前",
+	"lastuserlogin-nousers": "找不到用户。",
 	"right-lastlogin": "查看用户最后一次登录时间"
 }

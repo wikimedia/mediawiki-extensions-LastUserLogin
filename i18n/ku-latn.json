@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Bikarhêner"
 		]
 	},
-	"lastuserlogin-userid": "Navê bikarhêner"
+	"lastuserlogin-userid": "Navê bikarhêner",
+	"lastuserlogin-username": "Navê te yê rast",
+	"lastuserlogin-lastlogin": "Têketina dawî",
+	"lastuserlogin-nousers": "Tu bikarhêner nehate dîtin."
 }

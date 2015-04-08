@@ -11,5 +11,6 @@
 	"lastuserlogin-useremail": "Корисничка е-пошта",
 	"lastuserlogin-lastlogin": "Последна најава",
 	"lastuserlogin-daysago": "Пред (денови)",
+	"lastuserlogin-nousers": "Не пронајдов ниеден корисник.",
 	"right-lastlogin": "Проверка кога последен пат се најавил корисникот"
 }
