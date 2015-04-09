@@ -2,15 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Giro720",
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
 		]
 	},
 	"lastuserlogin": "Última autenticação",
 	"lastuserlogin-desc": "Mostra a última vez que um utilizador se autenticou",
 	"lastuserlogin-userid": "Utilizador",
 	"lastuserlogin-username": "Nome real",
-	"lastuserlogin-useremail": "Correio electrónico",
+	"lastuserlogin-useremail": "Correio eletrónico",
 	"lastuserlogin-lastlogin": "Última autenticação",
 	"lastuserlogin-daysago": "Dias atrás",
+	"lastuserlogin-nousers": "Nenhum utilizador encontrado.",
 	"right-lastlogin": "Ver a última vez que um utilizador se autenticou"
 }
