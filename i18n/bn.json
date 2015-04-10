@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wikitanvir"
+			"Wikitanvir",
+			"Aftabuzzaman"
 		]
 	},
 	"lastuserlogin-userid": "ব্যবহারকারী নাম",
 	"lastuserlogin-username": "প্রকৃত নাম:",
 	"lastuserlogin-useremail": "ব্যবহারকারীর ই-মেইল",
-	"lastuserlogin-lastlogin": "সর্বশেষ লগইন",
+	"lastuserlogin-lastlogin": "সর্বশেষ প্রবেশ",
 	"lastuserlogin-daysago": "দিন আগে"
 }
