@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"YaronSh"
+			"YaronSh",
+			"LaG roiL"
 		]
 	},
 	"lastuserlogin": "כניסת המשתמש האחרונה",
@@ -11,5 +12,6 @@
 	"lastuserlogin-useremail": "דוא״ל המשתמש",
 	"lastuserlogin-lastlogin": "הכניסה האחרונה",
 	"lastuserlogin-daysago": "ימים מאז",
+	"lastuserlogin-nousers": "לא נמצאו משתמשים.",
 	"right-lastlogin": "צפייה בפעם האחרונה שבה נכנס המשתמש"
 }
