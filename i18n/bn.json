@@ -9,5 +9,6 @@
 	"lastuserlogin-username": "প্রকৃত নাম:",
 	"lastuserlogin-useremail": "ব্যবহারকারীর ই-মেইল",
 	"lastuserlogin-lastlogin": "সর্বশেষ প্রবেশ",
-	"lastuserlogin-daysago": "দিন আগে"
+	"lastuserlogin-daysago": "দিন আগে",
+	"lastuserlogin-nousers": "কোনো ব্যবহারকারী পাওয়া যায়নি।"
 }
