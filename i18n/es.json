@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Translationista",
-			"Tusca"
+			"Tusca",
+			"Fitoschido"
 		]
 	},
 	"lastuserlogin": "Último acceso de usuario",
@@ -12,6 +13,6 @@
 	"lastuserlogin-useremail": "Correo electrónico del usuario",
 	"lastuserlogin-lastlogin": "Último acceso",
 	"lastuserlogin-daysago": "Días atrás",
-	"lastuserlogin-nousers": "No se encontraron los usuarios.",
+	"lastuserlogin-nousers": "No se encontró ningún usuario.",
 	"right-lastlogin": "Ver la última vez que un usuario se conectó"
 }
