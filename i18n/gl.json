@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Banjo"
 		]
 	},
 	"lastuserlogin": "Último acceso do usuario",
@@ -11,5 +12,6 @@
 	"lastuserlogin-useremail": "Correo electrónico do usuario",
 	"lastuserlogin-lastlogin": "Último acceso",
 	"lastuserlogin-daysago": "Días atrás",
+	"lastuserlogin-nousers": "Non se atopou ningún usuario.",
 	"right-lastlogin": "Ver a última vez que un usuario se conectou"
 }
