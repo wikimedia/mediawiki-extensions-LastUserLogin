@@ -41,7 +41,7 @@ $specialPageAliases['diq'] = array(
 
 /** Spanish (español) */
 $specialPageAliases['es'] = array(
-	'LastUserLogin' => array( 'Último_usuario_que_ha_entrado' ),
+	'LastUserLogin' => array( 'Último_usuario_que_ha_entrado', 'Último_usuario_que_ha_iniciado_sesión' ),
 );
 
 /** Persian (فارسی) */
