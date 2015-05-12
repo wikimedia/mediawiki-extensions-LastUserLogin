@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'LastUserLogin' => array( 'آخر_دخول_للمستخدم' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'LastUserLogin' => array( 'آخر_دخول_لليوزر' ),
 );
