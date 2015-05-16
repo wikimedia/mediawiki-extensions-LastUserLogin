@@ -122,4 +122,8 @@ class LastUserLogin extends SpecialPage {
 		$out .= '</table>';
 		$wgOut->addHTML( $out );
 	}
+
+	protected function getGroupName() {
+		return 'users';
+	}
 }

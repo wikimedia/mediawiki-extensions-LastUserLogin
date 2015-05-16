@@ -37,7 +37,6 @@ $wgGroupPermissions['sysop']['lastlogin'] = true;
 
 // Set up the new special page
 $wgSpecialPages['LastUserLogin'] = 'LastUserLogin';
-$wgSpecialPageGroups['LastUserLogin'] = 'users';
 
 // Register the method that updates the database when a user logs in
 $wgExtensionFunctions[] = 'LastUserLogin::updateUserTouched';
