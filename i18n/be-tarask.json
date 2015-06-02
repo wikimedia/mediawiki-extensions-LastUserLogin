@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"EugeneZelenko",
-			"Jim-by"
+			"Jim-by",
+			"Red Winged Duck"
 		]
 	},
 	"lastuserlogin": "Апошні ўваход удзельніка ў сыстэму",
@@ -12,5 +13,6 @@
 	"lastuserlogin-useremail": "Электронная пошта ўдзельніка",
 	"lastuserlogin-lastlogin": "Апошні ўваход у сыстэму",
 	"lastuserlogin-daysago": "Дзён таму",
+	"lastuserlogin-nousers": "Удзельнікі ня знойдзеныя.",
 	"right-lastlogin": "прагляд часу апошняга ўваходу ўдзельніка ў сыстэму"
 }
