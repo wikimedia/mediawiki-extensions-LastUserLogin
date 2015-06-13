@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"NickK",
-			"Prima klasy4na"
+			"Prima klasy4na",
+			"Ата"
 		]
 	},
 	"lastuserlogin": "Останній вхід користувача до системи",
@@ -12,5 +13,6 @@
 	"lastuserlogin-useremail": "Електронна пошта користувача",
 	"lastuserlogin-lastlogin": "Останній вхід до системи",
 	"lastuserlogin-daysago": "Днів тому",
+	"lastuserlogin-nousers": "Користувачів не знайдено.",
 	"right-lastlogin": "Перегляд часу останнього входу користувача до системи"
 }
