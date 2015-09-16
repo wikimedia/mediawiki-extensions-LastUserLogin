@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Hooshmand.hasannia",
-			"Mjbmr"
+			"Mjbmr",
+			"Reza1615"
 		]
 	},
 	"lastuserlogin": "آخرین ورود کاربر",
@@ -10,5 +11,6 @@
 	"lastuserlogin-username": "نام واقعی",
 	"lastuserlogin-useremail": "ایمیل کاربر",
 	"lastuserlogin-lastlogin": "آخرین ورود",
-	"lastuserlogin-daysago": "روز قبل"
+	"lastuserlogin-daysago": "روز قبل",
+	"lastuserlogin-nousers": "کاربری پیدا نشد."
 }

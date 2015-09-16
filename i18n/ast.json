@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"lastuserlogin": "Últimu accesu del usuariu",
+	"lastuserlogin-desc": "Amuesa la última vegada qu'anició sesión un usuariu",
+	"lastuserlogin-userid": "Nome d'usuariu",
+	"lastuserlogin-username": "Nome real",
+	"lastuserlogin-useremail": "Corréu electrónicu del usuariu",
+	"lastuserlogin-lastlogin": "Últimu accesu",
+	"lastuserlogin-daysago": "Díes atrás",
+	"lastuserlogin-nousers": "Nun s'alcontraron usuarios.",
+	"right-lastlogin": "Ver la última vegada qu'un usuariu anició sesión"
+}
