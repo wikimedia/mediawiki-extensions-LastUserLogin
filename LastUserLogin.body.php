@@ -30,7 +30,7 @@ class LastUserLogin extends SpecialPage {
 	 * Updates the database when a user logs in
 	 */
 	public static function updateUserTouched() {
-		global $wgOut, $wgCookiePrefix;
+		global $wgCookiePrefix;
 
 		if ( isset( $_COOKIE ) and isset( $_COOKIE[ $wgCookiePrefix . 'UserID' ] ) ) {
 			$dbw = wfGetDB( DB_MASTER );
@@ -48,8 +48,7 @@ class LastUserLogin extends SpecialPage {
 		global $wgUser, $wgOut, $wgLang, $wgRequest;
 
 		if ( $wgUser->isBlocked() ) {
-			$wgOut->blockedPage();
-			return;
+			throw new UserBlockedError( $this->getUser()->getBlock() );
 		}
 
 		if ( !$this->userCanExecute( $wgUser ) ) {
