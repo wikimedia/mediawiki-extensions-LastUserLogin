@@ -109,7 +109,7 @@ class LastUserLogin extends SpecialPage {
 					$out .= '<td style="text-align:right;">' . $daysAgo . '</td>';
 				} elseif ( $key === 'user_name' ) {
 					$userPage = Title::makeTitle( NS_USER, $row[ $key ] );
-					$userName = $this->getSkin()->makeLinkObj( $userPage, htmlspecialchars( $userPage->getText() ) );
+					$userName = Linker::link( $userPage, htmlspecialchars( $userPage->getText() ) );
 					$out .= '<td>' . $userName . '</td>';
 				} else {
 					$out .= '<td>' . htmlspecialchars( $row[ $key ] ) . '</td>';
