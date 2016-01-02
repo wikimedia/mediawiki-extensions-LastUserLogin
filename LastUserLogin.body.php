@@ -100,7 +100,7 @@ class LastUserLogin extends SpecialPage {
 		$out .= '</tr>';
 
 		// Build the table rows
-		while ( $row = $dbr->fetchRow( $result ) ) {
+		foreach ( $result as $row ) {
 			$out .= '<tr>';
 			foreach ( $fields as $key => $value ) {
 				if ( $key === 'user_touched' ) {
@@ -108,9 +108,9 @@ class LastUserLogin extends SpecialPage {
 					$daysAgo = $wgLang->formatNum( round( ( time() - wfTimestamp( TS_UNIX, $row[ $key ] ) ) / 3600 / 24, 2 ), 2 );
 					$out .= '<td>' . $lastLogin . '</td>';
 					$out .= '<td style="text-align:right;">' . $daysAgo . '</td>';
-				} else if ( $key === 'user_name' ) {
+				} elseif ( $key === 'user_name' ) {
 					$userPage = Title::makeTitle( NS_USER, $row[ $key ] );
-					$userName = $wgUser->getSkin()->makeLinkObj( $userPage, htmlspecialchars( $userPage->getText() ) );
+					$userName = $this->getSkin()->makeLinkObj( $userPage, htmlspecialchars( $userPage->getText() ) );
 					$out .= '<td>' . $userName . '</td>';
 				} else {
 					$out .= '<td>' . htmlspecialchars( $row[ $key ] ) . '</td>';
