@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Revi"
+		]
+	},
+	"lastuserlogin": "최근 사용자 로그인",
+	"lastuserlogin-desc": "사용자가 가장 마지막으로 로그인한 시간을 보여줍니다",
+	"lastuserlogin-userid": "사용자 이름",
+	"lastuserlogin-username": "실명",
+	"lastuserlogin-useremail": "사용자 이메일",
+	"lastuserlogin-lastlogin": "최근 로그인",
+	"lastuserlogin-daysago": "일 전",
+	"lastuserlogin-nousers": "사용자가 없습니다.",
+	"right-lastlogin": "사용자가 가장 마지막으로 로그인한 시간을 보여줍니다"
+}
