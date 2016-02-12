@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sasan700"
+			"Sasan700",
+			"Умар"
 		]
 	},
 	"lastuserlogin": "Хьалхо чубаьхкина декъашхой",
 	"lastuserlogin-desc": "Декъашхо тlаьххьара маца чуваьлла хан гойту",
-	"lastuserlogin-userid": "Лелочуьнан цlе",
-	"lastuserlogin-username": "Хьан бакъ цlе",
+	"lastuserlogin-userid": "Декъашхочун цӀе.",
+	"lastuserlogin-username": "Хьан бакъ цӀе",
 	"lastuserlogin-useremail": "Хааман зlе",
 	"lastuserlogin-lastlogin": "Хьалхо чувалар",
 	"lastuserlogin-daysago": "Де хьалха",
