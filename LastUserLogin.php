@@ -14,7 +14,7 @@
  * with this program; if not, write to the Free Software Foundation, Inc.,
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  * http://www.gnu.org/copyleft/gpl.html
- * 
+ *
  * @file
  */
 
@@ -22,9 +22,15 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'LastUserLogin',
 	'version' => '1.3',
-	'author' => array( 'Justin G. Cramer', 'Danila Ulyanov', 'Thomas Klein', 'Luis Felipe Schenone' ),
+	'author' => array(
+		'Justin G. Cramer',
+		'Danila Ulyanov',
+		'Thomas Klein',
+		'Luis Felipe Schenone'
+		),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:LastUserLogin',
 	'descriptionmsg' => 'lastuserlogin-desc',
+	'license-name' => 'GPL-3.0+'
 );
 
 $wgAutoloadClasses['LastUserLogin'] = __DIR__ . '/LastUserLogin.body.php';
