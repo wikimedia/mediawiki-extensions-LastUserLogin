@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"YaronSh",
-			"LaG roiL"
+			"LaG roiL",
+			"Guycn2"
 		]
 	},
 	"lastuserlogin": "כניסת המשתמש האחרונה",
@@ -13,5 +14,5 @@
 	"lastuserlogin-lastlogin": "הכניסה האחרונה",
 	"lastuserlogin-daysago": "ימים מאז",
 	"lastuserlogin-nousers": "לא נמצאו משתמשים.",
-	"right-lastlogin": "צפייה בפעם האחרונה שבה נכנס המשתמש"
+	"right-lastlogin": "צפייה במועד האחרון שמשתמש מסוים נכנס לחשבון"
 }
