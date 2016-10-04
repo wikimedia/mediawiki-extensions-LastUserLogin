@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"HalphaZ"
+			"HalphaZ",
+			"Selven"
 		]
 	},
 	"lastuserlogin": "Ultimo login utente",
@@ -11,5 +12,6 @@
 	"lastuserlogin-useremail": "E-mail utente",
 	"lastuserlogin-lastlogin": "Ultimo login",
 	"lastuserlogin-daysago": "Giorni fa",
+	"lastuserlogin-nousers": "Nessun utente trovato.",
 	"right-lastlogin": "Visualizza l'ultima volta che un utente si è collegato"
 }
