@@ -3,7 +3,8 @@
 		"authors": [
 			"Giro720",
 			"Luckas Blade",
-			"Luckas"
+			"Luckas",
+			"!Silent"
 		]
 	},
 	"lastuserlogin": "Última autenticação",
@@ -13,5 +14,6 @@
 	"lastuserlogin-useremail": "Email do usuário",
 	"lastuserlogin-lastlogin": "Último login",
 	"lastuserlogin-daysago": "Dias atrás",
+	"lastuserlogin-nousers": "Nenhum usuário encontrado.",
 	"right-lastlogin": "Ver a última vez que um usuário fez login."
 }
