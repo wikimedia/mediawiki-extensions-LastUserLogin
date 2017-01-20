@@ -34,7 +34,7 @@ $wgExtensionCredits['specialpage'][] = array(
 );
 
 $wgAutoloadClasses['LastUserLogin'] = __DIR__ . '/LastUserLogin.body.php';
-$wgExtensionMessagesFiles['LastUserLogin'] = __DIR__ . '/LastUserLogin.i18n.php';
+$wgMessagesDirs['LastUserLogin'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['LastUserLoginAlias'] = __DIR__ . '/LastUserLogin.alias.php';
 
 // New user right
