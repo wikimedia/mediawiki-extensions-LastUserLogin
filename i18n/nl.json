@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Siebrand",
-			"Esketti"
+			"Esketti",
+			"Mainframe98"
 		]
 	},
 	"lastuserlogin": "Laatste aanmeldingen van gebruikers",
@@ -12,6 +13,6 @@
 	"lastuserlogin-useremail": "E-mail",
 	"lastuserlogin-lastlogin": "Laatste aanmelding",
 	"lastuserlogin-daysago": "Aantal dagen geleden",
-	"lastuserlogin-nousers": "Er zijn geen gebruikers gevonden.",
+	"lastuserlogin-nousers": "Geen gebruikers gevonden.",
 	"right-lastlogin": "Bekijken wanneer een gebruiker voor de laatste keer heeft aangemeld"
 }
