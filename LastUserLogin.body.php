@@ -14,7 +14,7 @@
  * with this program; if not, write to the Free Software Foundation, Inc.,
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  * http://www.gnu.org/copyleft/gpl.html
- * 
+ *
  * @file
  */
 
@@ -103,16 +103,16 @@ class LastUserLogin extends SpecialPage {
 			$out .= '<tr>';
 			foreach ( $fields as $key => $value ) {
 				if ( $key === 'user_touched' ) {
-					$lastLogin = $wgLang->timeanddate( wfTimestamp( TS_MW, $row[ $key ] ), true );
-					$daysAgo = $wgLang->formatNum( round( ( time() - wfTimestamp( TS_UNIX, $row[ $key ] ) ) / 3600 / 24, 2 ), 2 );
+					$lastLogin = $wgLang->timeanddate( wfTimestamp( TS_MW, $row->$key ), true );
+					$daysAgo = $wgLang->formatNum( round( ( time() - wfTimestamp( TS_UNIX, $row->$key ) ) / 3600 / 24, 2 ), 2 );
 					$out .= '<td>' . $lastLogin . '</td>';
-					$out .= '<td style="text-align:right;">' . $daysAgo . '</td>';
+					$out .= '<td style="text-align: right;">' . $daysAgo . '</td>';
 				} elseif ( $key === 'user_name' ) {
-					$userPage = Title::makeTitle( NS_USER, $row[ $key ] );
+					$userPage = Title::makeTitle( NS_USER, $row->$key );
 					$userName = Linker::link( $userPage, htmlspecialchars( $userPage->getText() ) );
 					$out .= '<td>' . $userName . '</td>';
 				} else {
-					$out .= '<td>' . htmlspecialchars( $row[ $key ] ) . '</td>';
+					$out .= '<td>' . htmlspecialchars( $row->$key ) . '</td>';
 				}
 			}
 			$out .= '</tr>';
