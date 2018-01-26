@@ -18,31 +18,16 @@
  * @file
  */
 
-$wgExtensionCredits['specialpage'][] = array(
-	'path' => __FILE__,
-	'name' => 'LastUserLogin',
-	'version' => '1.3',
-	'author' => array(
-		'Justin G. Cramer',
-		'Danila Ulyanov',
-		'Thomas Klein',
-		'Luis Felipe Schenone'
-		),
-	'url' => 'https://www.mediawiki.org/wiki/Extension:LastUserLogin',
-	'descriptionmsg' => 'lastuserlogin-desc',
-	'license-name' => 'GPL-3.0+'
-);
-
-$wgAutoloadClasses['LastUserLogin'] = __DIR__ . '/LastUserLogin.body.php';
-$wgMessagesDirs['LastUserLogin'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['LastUserLoginAlias'] = __DIR__ . '/LastUserLogin.alias.php';
-
-// New user right
-$wgAvailableRights[] = 'lastlogin';
-$wgGroupPermissions['sysop']['lastlogin'] = true;
-
-// Set up the new special page
-$wgSpecialPages['LastUserLogin'] = 'LastUserLogin';
-
-// Register the method that updates the database when a user logs in
-$wgExtensionFunctions[] = 'LastUserLogin::updateUserTouched';
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'LastUserLogin' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['LastUserLogin'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the LastUserLogin extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the LastUserLogin extension requires MediaWiki 1.29+' );
+}
