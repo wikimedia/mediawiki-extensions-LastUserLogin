@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Mark85296341",
-			"LNDDYL"
+			"LNDDYL",
+			"Kly"
 		]
 	},
 	"lastuserlogin": "最後一次使用者登入",
@@ -12,5 +13,6 @@
 	"lastuserlogin-useremail": "使用者電子郵件",
 	"lastuserlogin-lastlogin": "最後一次登入",
 	"lastuserlogin-daysago": "天之前",
+	"lastuserlogin-nousers": "查無使用者。",
 	"right-lastlogin": "檢視使用者最後一次登入時間"
 }
