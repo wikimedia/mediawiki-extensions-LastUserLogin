@@ -78,7 +78,7 @@ class LastUserLogin extends SpecialPage {
 		}
 
 		// Get ALL users, paginated
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		$result = $dbr->select( 'user', array_keys( $fields ) , '', __METHOD__, array( 'ORDER BY' => $orderby . ' ' . $ordertype ) );
 		if ( $result === false ) {
 			$wgOut->addHTML( '<p>' . wfMessage( 'lastuserlogin-nousers' )->text() . '</p>' );
