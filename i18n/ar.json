@@ -1,10 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"OsamaK"
+			"OsamaK",
+			"ديفيد"
 		]
 	},
+	"lastuserlogin": "آخر تسجيل دخول للمستخدم",
+	"lastuserlogin-desc": "يعرض آخر مرة قام فيها مستخدم بتسجيل الدخول",
 	"lastuserlogin-userid": "اسم المستخدم",
 	"lastuserlogin-username": "الاسم الحقيقي",
-	"lastuserlogin-useremail": "بريد المستخدم الإلكتروني"
+	"lastuserlogin-useremail": "بريد المستخدم الإلكتروني",
+	"lastuserlogin-lastlogin": "آخر تسجيل دخول",
+	"lastuserlogin-daysago": "الأيام الماضية",
+	"lastuserlogin-nousers": "لم يتم العثور على أي مستخدم.",
+	"right-lastlogin": "عرض آخر مرة قام فيها مستخدم بتسجيل الدخول"
 }
