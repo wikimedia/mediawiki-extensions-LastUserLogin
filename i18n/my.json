@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr Lotus Black"
+		]
+	},
+	"lastuserlogin-desc": "အသုံးပြုသူ နောက်ဆုံးဝင်ခဲ့သောအချိန်ကို ပြရန်",
+	"lastuserlogin-userid": "အသုံးပြုသူအမည်",
+	"lastuserlogin-username": "အမည်ရင်း",
+	"lastuserlogin-useremail": "အသုံးပြုသူ အီးမေးလ်",
+	"lastuserlogin-lastlogin": "နောက်ဆုံး ဝင်ရောက်",
+	"lastuserlogin-daysago": "ရက်အကြာ",
+	"lastuserlogin-nousers": "အသုံးပြုသူများ မတွေ့ပါ။",
+	"right-lastlogin": "အသုံးပြုသူတစ်ဦး နောက်ဆုံးဝင်ခဲ့သောအချိန်ကို ကြည့်ရန်"
+}
