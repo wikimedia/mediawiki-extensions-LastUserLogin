@@ -29,14 +29,10 @@ class LastUserLogin extends SpecialPage {
 	/**
 	 * Updates the database when a user logs in
 	 */
-	public static function updateUserTouched() {
-		global $wgCookiePrefix;
-
-		if ( isset( $_COOKIE ) and isset( $_COOKIE[ $wgCookiePrefix . 'UserID' ] ) ) {
-			$dbw = wfGetDB( DB_MASTER );
-			$query = 'UPDATE ' . $dbw->tableName( 'user' ) . ' SET user_touched = "' . $dbw->timestamp() . '" WHERE user_id = ' . intval( $_COOKIE[ $wgCookiePrefix . 'UserID' ] );
-			$dbw->query( $query );
-		}
+	public static function onUserLoggedIn( $user ) {
+		$dbw = wfGetDB( DB_MASTER );
+		$query = 'UPDATE ' . $dbw->tableName( 'user' ) . ' SET user_touched = "' . $dbw->timestamp() . '" WHERE user_id = ' . $user->getId();
+		$dbw->query( $query );
 	}
 
 	/**

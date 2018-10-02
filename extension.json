@@ -1,6 +1,6 @@
 {
 	"name": "LastUserLogin",
-	"version": "1.4",
+	"version": "1.5",
 	"author": [
 		"Justin G. Cramer",
 		"Danila Ulyanov",
@@ -16,9 +16,6 @@
 	},
 	"AvailableRights": [
 		"lastlogin"
-	],
-	"ExtensionFunctions": [
-		"LastUserLogin::updateUserTouched"
 	],
 	"GroupPermissions": {
 		"sysop": {
@@ -38,6 +35,9 @@
 	},
 	"AutoloadClasses": {
 		"LastUserLogin": "LastUserLogin.body.php"
+	},
+	"Hooks": {
+		"UserLoggedIn": "LastUserLogin::onUserLoggedIn"
 	},
 	"manifest_version": 2
 }
