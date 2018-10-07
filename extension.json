@@ -37,7 +37,7 @@
 		"LastUserLogin": "LastUserLogin.body.php"
 	},
 	"Hooks": {
-		"UserLoggedIn": "LastUserLogin::onUserLoggedIn"
+		"BeforeInitialize": "LastUserLogin::onBeforeInitialize"
 	},
 	"manifest_version": 2
 }

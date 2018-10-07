@@ -29,7 +29,7 @@ class LastUserLogin extends SpecialPage {
 	/**
 	 * Updates the database when a user logs in
 	 */
-	public static function onUserLoggedIn( $user ) {
+	public static function onBeforeInitialize( &$title, &$article = null, &$output, &$user, $request, $mediaWiki ) {
 		$dbw = wfGetDB( DB_MASTER );
 		$query = 'UPDATE ' . $dbw->tableName( 'user' ) . ' SET user_touched = "' . $dbw->timestamp() . '" WHERE user_id = ' . $user->getId();
 		$dbw->query( $query );
