@@ -1,15 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"AnakngAraw"
+			"AnakngAraw",
+			"Jojit fb"
 		]
 	},
-	"lastuserlogin": "Paglagda ng huling tagagamit",
-	"lastuserlogin-desc": "Nagpapakita ng huling oras na paglagda ng isang tagagamit",
+	"lastuserlogin": "Pag-login ng huling tagagamit",
+	"lastuserlogin-desc": "Pinapakita ang huling oras na nag-login ang isang tagagamit",
 	"lastuserlogin-userid": "Pangalan ng tagagamit",
 	"lastuserlogin-username": "Tunay na pangalan",
 	"lastuserlogin-useremail": "E-liham ng tagagamit",
-	"lastuserlogin-lastlogin": "Huling paglagda",
+	"lastuserlogin-lastlogin": "Huling pag-login",
 	"lastuserlogin-daysago": "Nakalipas na mga araw",
-	"right-lastlogin": "Tingnan ang huling oras ng paglagda ng isang tagagamit"
+	"right-lastlogin": "Tingnan ang huling oras na nag-login ang isang tagagamit"
 }
