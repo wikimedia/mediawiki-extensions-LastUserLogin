@@ -41,13 +41,16 @@ class LastUserLogin extends SpecialPage {
 	 * @param $parameter Mixed: parameter passed to the page or null
 	 */
 	public function execute( $parameter ) {
-		global $wgUser, $wgOut, $wgLang, $wgRequest;
+		$user = $this->getUser();
+		$request = $this->getRequest();
+		$output = $this->getOutput();
+		$lang = $this->getLanguage();
 
-		if ( $wgUser->isBlocked() ) {
-			throw new UserBlockedError( $this->getUser()->getBlock() );
+		if ( $user->isBlocked() ) {
+			throw new UserBlockedError( $user->getBlock() );
 		}
 
-		if ( !$this->userCanExecute( $wgUser ) ) {
+		if ( !$this->userCanExecute( $user ) ) {
 			$this->displayRestrictionError();
 			return;
 		}
@@ -62,13 +65,13 @@ class LastUserLogin extends SpecialPage {
 		);
 
 		// Get order_by and validate it
-		$orderby = $wgRequest->getVal( 'order_by', 'user_name' );
+		$orderby = $request->getVal( 'order_by', 'user_name' );
 		if ( !isset( $fields[ $orderby ] ) ) {
 			$orderby = 'user_name';
 		}
 
 		// Get order_type and validate it
-		$ordertype = $wgRequest->getVal('order_type', 'ASC');
+		$ordertype = $request->getVal('order_type', 'ASC');
 		if ( $ordertype !== 'DESC' ) {
 			$ordertype = 'ASC';
 		}
@@ -77,7 +80,7 @@ class LastUserLogin extends SpecialPage {
 		$dbr = wfGetDB( DB_REPLICA );
 		$result = $dbr->select( 'user', array_keys( $fields ) , '', __METHOD__, array( 'ORDER BY' => $orderby . ' ' . $ordertype ) );
 		if ( $result === false ) {
-			$wgOut->addHTML( '<p>' . wfMessage( 'lastuserlogin-nousers' )->text() . '</p>' );
+			$output->addHTML( '<p>' . wfMessage( 'lastuserlogin-nousers' )->text() . '</p>' );
 			return;
 		}
 
@@ -99,8 +102,8 @@ class LastUserLogin extends SpecialPage {
 			$out .= '<tr>';
 			foreach ( $fields as $key => $value ) {
 				if ( $key === 'user_touched' ) {
-					$lastLogin = $wgLang->timeanddate( wfTimestamp( TS_MW, $row->$key ), true );
-					$daysAgo = $wgLang->formatNum( round( ( time() - wfTimestamp( TS_UNIX, $row->$key ) ) / 3600 / 24, 2 ), 2 );
+					$lastLogin = $lang->timeanddate( wfTimestamp( TS_MW, $row->$key ), true );
+					$daysAgo = $lang->formatNum( round( ( time() - wfTimestamp( TS_UNIX, $row->$key ) ) / 3600 / 24, 2 ), 2 );
 					$out .= '<td>' . $lastLogin . '</td>';
 					$out .= '<td style="text-align: right;">' . $daysAgo . '</td>';
 				} elseif ( $key === 'user_name' ) {
@@ -115,7 +118,7 @@ class LastUserLogin extends SpecialPage {
 		}
 
 		$out .= '</table>';
-		$wgOut->addHTML( $out );
+		$output->addHTML( $out );
 	}
 
 	protected function getGroupName() {
