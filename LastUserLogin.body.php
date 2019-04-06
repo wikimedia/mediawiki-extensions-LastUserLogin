@@ -85,7 +85,7 @@ class LastUserLogin extends SpecialPage {
 		$out = '<table class="wikitable">';
 
 		// Build the table header
-		$title = $this->getTitle();
+		$title = $this->getPageTitle();
 		$out .= '<tr>';
 		$ordertype = ( $ordertype == 'ASC' ) ? 'DESC' : 'ASC'; // Invert the order
 		foreach ( $fields as $key => $value ) {
