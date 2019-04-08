@@ -3,12 +3,13 @@
 		"authors": [
 			"Centerlink",
 			"Crt",
-			"Silvonen"
+			"Silvonen",
+			"Pyscowicz"
 		]
 	},
 	"lastuserlogin": "Viimeisin käyttäjän kirjautuminen",
 	"lastuserlogin-desc": "Näyttää viimeisimmän kerran, jolloin käyttäjä oli kirjautuneena.",
-	"lastuserlogin-userid": "Käyttäjätunnus",
+	"lastuserlogin-userid": "Käyttäjänimi",
 	"lastuserlogin-username": "Oikea nimi",
 	"lastuserlogin-useremail": "Käyttäjän sähköposti",
 	"lastuserlogin-lastlogin": "Viimeksi kirjautunut",
