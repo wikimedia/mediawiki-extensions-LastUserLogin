@@ -14,5 +14,6 @@
 	"lastuserlogin-lastlogin": "Used as label on [[Special:LastUserLogin]]",
 	"lastuserlogin-daysago": "This message is used as a column header in a table.",
 	"lastuserlogin-nousers": "Used as error message on [[Special:LastUserLogin]]",
+	"action-lastlogin": "{{doc-action|lastlogin}}",
 	"right-lastlogin": "{{doc-right|lastlogin}}"
 }
