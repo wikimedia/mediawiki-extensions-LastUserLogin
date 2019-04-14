@@ -4,7 +4,8 @@
 			"Giro720",
 			"Luckas Blade",
 			"Luckas",
-			"!Silent"
+			"!Silent",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"lastuserlogin": "Última autenticação",
@@ -15,5 +16,6 @@
 	"lastuserlogin-lastlogin": "Último login",
 	"lastuserlogin-daysago": "Dias atrás",
 	"lastuserlogin-nousers": "Nenhum usuário encontrado.",
+	"action-lastlogin": "ver a última vez que um usuário fez login.",
 	"right-lastlogin": "Ver a última vez que um usuário fez login."
 }

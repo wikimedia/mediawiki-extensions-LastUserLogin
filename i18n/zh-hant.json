@@ -14,5 +14,6 @@
 	"lastuserlogin-lastlogin": "最後一次登入",
 	"lastuserlogin-daysago": "天之前",
 	"lastuserlogin-nousers": "查無使用者。",
+	"action-lastlogin": "檢視使用者最後一次登入時間",
 	"right-lastlogin": "檢視使用者最後一次登入時間"
 }

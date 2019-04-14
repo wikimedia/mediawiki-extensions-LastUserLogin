@@ -12,5 +12,6 @@
 	"lastuserlogin-lastlogin": "Последна најава",
 	"lastuserlogin-daysago": "Пред (денови)",
 	"lastuserlogin-nousers": "Не пронајдов ниеден корисник.",
+	"action-lastlogin": "проверка кога последен пат се најавил корисникот",
 	"right-lastlogin": "Проверка кога последен пат се најавил корисникот"
 }

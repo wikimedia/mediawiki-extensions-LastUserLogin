@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"OsamaK",
-			"ديفيد"
+			"ديفيد",
+			"Meno25"
 		]
 	},
 	"lastuserlogin": "آخر تسجيل دخول للمستخدم",
@@ -13,5 +14,6 @@
 	"lastuserlogin-lastlogin": "آخر تسجيل دخول",
 	"lastuserlogin-daysago": "الأيام الماضية",
 	"lastuserlogin-nousers": "لم يتم العثور على أي مستخدم.",
+	"action-lastlogin": "رؤية متى سجل المستخدم الدخول آخر مرة",
 	"right-lastlogin": "عرض آخر مرة قام فيها مستخدم بتسجيل الدخول"
 }
