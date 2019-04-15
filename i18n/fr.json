@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"IAlex",
-			"Crochet.david"
+			"Crochet.david",
+			"Gomoko"
 		]
 	},
 	"lastuserlogin": "Dernière connexion des utilisateurs",
@@ -13,5 +14,6 @@
 	"lastuserlogin-lastlogin": "Dernière connexion",
 	"lastuserlogin-daysago": "Jours dans le passé",
 	"lastuserlogin-nousers": "Aucun utilisateur trouvé.",
+	"action-lastlogin": "afficher le dernier horodatage de connexion de l’utilisateur",
 	"right-lastlogin": "Voir la dernière fois qu'un utilisateur s'est connecté"
 }
