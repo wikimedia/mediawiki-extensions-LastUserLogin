@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"lastuserlogin": "Urtema trasute de l'utende",
+	"lastuserlogin-desc": "Face 'ndrucà l'urtema vote ca 'n'utende ave trasute",
+	"lastuserlogin-userid": "Nome de l'utende",
+	"lastuserlogin-username": "Nome vere",
+	"lastuserlogin-useremail": "Email de l'utende",
+	"lastuserlogin-lastlogin": "Urtema trasute",
+	"lastuserlogin-daysago": "Sciurne fa",
+	"lastuserlogin-nousers": "Nisciune utende acchiate.",
+	"action-lastlogin": "'ndruche l'urtema vote ca 'n'utende ave trasute",
+	"right-lastlogin": "'Ndruche l'urtema vote ca 'n'utende ave trasute"
+}
