@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sp5uhe",
-			"Devwebtel"
+			"Devwebtel",
+			"Railfail536"
 		]
 	},
 	"lastuserlogin": "Ostatnie zalogowania użytkownika",
@@ -13,5 +14,6 @@
 	"lastuserlogin-lastlogin": "Ostatnie zalogowanie",
 	"lastuserlogin-daysago": "dni temu",
 	"lastuserlogin-nousers": "Nie znaleziono żadnego użytkownika.",
+	"action-lastlogin": "podglądu daty i czasu ostatniego zalogowania się użytkownika",
 	"right-lastlogin": "Podgląd daty i czasu ostatniego zalogowania się użytkownika"
 }
