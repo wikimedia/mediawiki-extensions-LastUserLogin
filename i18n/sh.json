@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"lastuserlogin": "Posljednja prijava korisnika",
+	"lastuserlogin-desc": "Prikazuje kada se korisnik posljednji put prijavio",
+	"lastuserlogin-userid": "Korisničko ime",
+	"lastuserlogin-username": "Pravo ime",
+	"lastuserlogin-useremail": "Korisnički e-mail",
+	"lastuserlogin-lastlogin": "Posljednja prijava",
+	"lastuserlogin-daysago": "Protekli dani",
+	"lastuserlogin-nousers": "Nisam pronašao nijednog korisnika.",
+	"action-lastlogin": "pregled kada se korisnik posljednji put prijavio",
+	"right-lastlogin": "Pregled kada se korisnik posljednji put prijavio"
+}

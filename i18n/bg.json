@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"DCLXVI"
+			"DCLXVI",
+			"StanProg"
 		]
 	},
 	"lastuserlogin-userid": "Потребителско име",
-	"lastuserlogin-username": "Име",
+	"lastuserlogin-username": "Истинско име",
 	"lastuserlogin-lastlogin": "Последно влизане"
 }

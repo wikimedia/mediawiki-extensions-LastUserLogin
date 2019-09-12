@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Александр Сигачёв",
-			"Mariya"
+			"Mariya",
+			"Vlad5250"
 		]
 	},
 	"lastuserlogin": "Недавние посещения пользователей",
@@ -13,5 +14,6 @@
 	"lastuserlogin-lastlogin": "Недавнее посещение",
 	"lastuserlogin-daysago": "Дней назад",
 	"lastuserlogin-nousers": "Пользователи не найдены.",
+	"action-lastlogin": "просмотр времени последнего входа участника",
 	"right-lastlogin": "просмотр времени последнего входа участника"
 }
