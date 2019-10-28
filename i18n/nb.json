@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Nghtwlkr",
-			"Kingu"
+			"Kingu",
+			"Jon Harald Søby"
 		]
 	},
 	"lastuserlogin": "Siste brukerinnlogging",
@@ -13,5 +14,6 @@
 	"lastuserlogin-lastlogin": "Siste innlogging",
 	"lastuserlogin-daysago": "Dager siden",
 	"lastuserlogin-nousers": "Ingen brukere funnet.",
+	"action-lastlogin": "vise forrige gang en bruker logget inn",
 	"right-lastlogin": "Se den siste gangen en bruker logget inn"
 }
