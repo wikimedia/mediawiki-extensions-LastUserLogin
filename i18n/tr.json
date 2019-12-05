@@ -3,7 +3,8 @@
 		"authors": [
 			"Emperyan",
 			"Manco Capac",
-			"Watermelon juice"
+			"Watermelon juice",
+			"BaRaN6161 TURK"
 		]
 	},
 	"lastuserlogin": "Son çevrimiçi olan kullanıcı",
@@ -13,5 +14,7 @@
 	"lastuserlogin-useremail": "Kullanıcı epostası",
 	"lastuserlogin-lastlogin": "Son çevrimiçi",
 	"lastuserlogin-daysago": "Kaç gün önce",
+	"lastuserlogin-nousers": "Kullanıcı bulunamadı.",
+	"action-lastlogin": "bir kullanıcının en son giriş yaptığı zamanı görüntüle",
 	"right-lastlogin": "Bir kullanıcının çevrimiçi olduğu en son zamanı göster"
 }
