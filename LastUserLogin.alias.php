@@ -128,6 +128,16 @@ $specialPageAliases['nl'] = array(
 	'LastUserLogin' => array( 'LaasteGebruikeraanmelding' ),
 );
 
+/** Serbian Cyrillic (српски (ћирилица)) */
+$specialPageAliases['sr-ec'] = array(
+	'LastUserLogin' => array( 'Последња_корисничка_пријава' ),
+);
+
+/** Serbian Latin (srpski (latinica)) */
+$specialPageAliases['sr-el'] = array(
+	'LastUserLogin' => array( 'Poslednja_korisnička_prijava' ),
+);
+
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = array(
 	'LastUserLogin' => array( 'SonKullanıcıOturumAçma' ),
