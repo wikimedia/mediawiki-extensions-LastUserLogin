@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Yekrats",
-			"Mirin"
+			"Mirin",
+			"Robin van der Vliet"
 		]
 	},
 	"lastuserlogin": "Lasta ensaluto de uzanto",
 	"lastuserlogin-desc": "Montras la lastan fojon kiam uzanto ensalutis",
-	"lastuserlogin-userid": "Salutnomo",
+	"lastuserlogin-userid": "Uzantnomo",
 	"lastuserlogin-username": "Reala nomo",
 	"lastuserlogin-useremail": "Retpoŝto de uzanto",
 	"lastuserlogin-lastlogin": "Lasta ensaluto",
