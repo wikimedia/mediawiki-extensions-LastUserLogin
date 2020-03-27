@@ -1,11 +1,11 @@
 {
 	"name": "LastUserLogin",
-	"version": "1.5",
+	"version": "1.6",
 	"author": [
 		"Justin G. Cramer",
 		"Danila Ulyanov",
 		"Thomas Klein",
-		"[https://www.mediawiki.org/wiki/User:Sophivorus Felipe Schenone]"
+		"[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:LastUserLogin",
 	"descriptionmsg": "lastuserlogin-desc",
@@ -34,7 +34,7 @@
 		"LastUserLoginAlias": "LastUserLogin.alias.php"
 	},
 	"AutoloadClasses": {
-		"LastUserLogin": "LastUserLogin.body.php"
+		"LastUserLogin": "LastUserLogin.php"
 	},
 	"Hooks": {
 		"BeforeInitialize": "LastUserLogin::onBeforeInitialize"
