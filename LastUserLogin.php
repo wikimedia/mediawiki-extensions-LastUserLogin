@@ -30,8 +30,11 @@ class LastUserLogin extends SpecialPage {
 	 * Updates the database when a user logs in
 	 */
 	public static function onBeforeInitialize( &$title, &$article = null, &$output, &$user, $request, $mediaWiki ) {
-		$dbw = wfGetDB( DB_MASTER );
-		$dbw->update( 'user', [ 'user_touched' => $dbw->timestamp() ], [ 'user_id = ' . $user->getId() ] );
+		$userUpdate = $user->getInstanceForUpdate();
+		if ( $userUpdate ) {
+			$userUpdate->touch();
+			$userUpdate->saveSettings();
+		}
 	}
 
 	/**
@@ -84,7 +87,7 @@ class LastUserLogin extends SpecialPage {
 		}
 
 		// Build the table
-		$out = '<table class="wikitable">';
+		$out = '<table class="wikitable sortable">';
 
 		// Build the table header
 		$title = $this->getPageTitle();
