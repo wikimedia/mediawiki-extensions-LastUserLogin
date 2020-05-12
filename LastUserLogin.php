@@ -30,10 +30,12 @@ class LastUserLogin extends SpecialPage {
 	 * Updates the database when a user logs in
 	 */
 	public static function onBeforeInitialize( &$title, &$article = null, &$output, &$user, $request, $mediaWiki ) {
-		$userUpdate = $user->getInstanceForUpdate();
-		if ( $userUpdate ) {
-			$userUpdate->touch();
-			$userUpdate->saveSettings();
+		if ( !$request->wasPosted() ) {
+			$userUpdate = $user->getInstanceForUpdate();
+			if ( $userUpdate ) {
+				$userUpdate->touch();
+				$userUpdate->saveSettings();
+			}
 		}
 	}
 
