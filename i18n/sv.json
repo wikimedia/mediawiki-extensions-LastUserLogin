@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Dafer45",
+			"Sabelöga",
 			"WikiPhoenix"
 		]
 	},
@@ -12,5 +13,7 @@
 	"lastuserlogin-useremail": "Användar-e-post",
 	"lastuserlogin-lastlogin": "Senaste inloggning",
 	"lastuserlogin-daysago": "Dagar sedan",
+	"lastuserlogin-nousers": "Inga användare hittades.",
+	"action-lastlogin": "visa senaste gången en användare loggade in.",
 	"right-lastlogin": "Visa den senaste gången en användare loggade in"
 }
