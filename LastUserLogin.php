@@ -28,8 +28,16 @@ class LastUserLogin extends SpecialPage {
 
 	/**
 	 * Updates the database when a user logs in
+	 * @param Title &$title
+	 * @param mixed $unused
+	 * @param OutputPage $output
+	 * @param User $user
+	 * @param WebRequest $request
+	 * @param MediaWiki $mediaWiki
 	 */
-	public static function onBeforeInitialize( &$title, &$article = null, &$output, &$user, $request, $mediaWiki ) {
+	public static function onBeforeInitialize(
+		Title &$title, $unused, OutputPage $output, User $user, WebRequest $request, MediaWiki $mediaWiki
+	) {
 		if ( !$request->wasPosted() ) {
 			$userUpdate = $user->getInstanceForUpdate();
 			if ( $userUpdate ) {
@@ -42,7 +50,7 @@ class LastUserLogin extends SpecialPage {
 	/**
 	 * Show the special page
 	 *
-	 * @param $parameter Mixed: parameter passed to the page or null
+	 * @param mixed $parameter Parameter passed to the page or null
 	 */
 	public function execute( $parameter ) {
 		$user = $this->getUser();
@@ -75,16 +83,18 @@ class LastUserLogin extends SpecialPage {
 		}
 
 		// Get order_type and validate it
-		$ordertype = $request->getVal('order_type', 'ASC');
+		$ordertype = $request->getVal( 'order_type', 'ASC' );
 		if ( $ordertype !== 'DESC' ) {
 			$ordertype = 'ASC';
 		}
 
 		// Get ALL users, paginated
 		$dbr = wfGetDB( DB_REPLICA );
-		$result = $dbr->select( 'user', array_keys( $fields ) , '', __METHOD__, [ 'ORDER BY' => $orderby . ' ' . $ordertype ] );
+		$result = $dbr->select(
+			'user', array_keys( $fields ), '', __METHOD__, [ 'ORDER BY' => $orderby . ' ' . $ordertype ]
+		);
 		if ( $result === false ) {
-			$output->addHTML( '<p>' . wfMessage( 'lastuserlogin-nousers' )->text() . '</p>' );
+			$output->addHTML( '<p>' . $this->msg( 'lastuserlogin-nousers' )->text() . '</p>' );
 			return;
 		}
 
@@ -94,11 +104,13 @@ class LastUserLogin extends SpecialPage {
 		// Build the table header
 		$title = $this->getPageTitle();
 		$out .= '<tr>';
-		$ordertype = ( $ordertype == 'ASC' ) ? 'DESC' : 'ASC'; // Invert the order
+		// Invert the order.
+		$ordertype = ( $ordertype == 'ASC' ) ? 'DESC' : 'ASC';
 		foreach ( $fields as $key => $value ) {
-			$out .= '<th><a href="' . htmlspecialchars( $title->getLocalUrl( [ 'order_by' => $key, 'order_type' => $ordertype ] ) ) . '">' . wfMessage( $value )->text() . '</a></th>';
+			$href = $title->getLocalUrl( [ 'order_by' => $key, 'order_type' => $ordertype ] );
+			$out .= '<th>' . Html::element( 'a', [ 'href' => $href ], $this->msg( $value )->text() ) . '</th>';
 		}
-		$out .= '<th>' . wfMessage( 'lastuserlogin-daysago' )->text() . '</th>';
+		$out .= '<th>' . $this->msg( 'lastuserlogin-daysago' )->text() . '</th>';
 		$out .= '</tr>';
 
 		// Build the table rows
@@ -107,7 +119,8 @@ class LastUserLogin extends SpecialPage {
 			foreach ( $fields as $key => $value ) {
 				if ( $key === 'user_touched' ) {
 					$lastLogin = $lang->timeanddate( wfTimestamp( TS_MW, $row->$key ), true );
-					$daysAgo = $lang->formatNum( round( ( time() - wfTimestamp( TS_UNIX, $row->$key ) ) / 3600 / 24, 2 ), 2 );
+					$secondsAgo = time() - wfTimestamp( TS_UNIX, $row->$key );
+					$daysAgo = $lang->formatNum( round( $secondsAgo / 3600 / 24, 2 ) );
 					$out .= '<td>' . $lastLogin . '</td>';
 					$out .= '<td style="text-align: right;">' . $daysAgo . '</td>';
 				} elseif ( $key === 'user_name' ) {
@@ -125,6 +138,9 @@ class LastUserLogin extends SpecialPage {
 		$output->addHTML( $out );
 	}
 
+	/**
+	 * @return string
+	 */
 	protected function getGroupName() {
 		return 'users';
 	}

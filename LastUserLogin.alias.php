@@ -6,149 +6,149 @@
  * @ingroup Extensions
  */
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'LastUserLogin' => array( 'LastUserLogin' ),
-);
+$specialPageAliases['en'] = [
+	'LastUserLogin' => [ 'LastUserLogin' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'LastUserLogin' => array( 'آخر_دخول_للمستخدم' ),
-);
+$specialPageAliases['ar'] = [
+	'LastUserLogin' => [ 'آخر_دخول_للمستخدم' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$specialPageAliases['arz'] = array(
-	'LastUserLogin' => array( 'آخر_دخول_لليوزر' ),
-);
+$specialPageAliases['arz'] = [
+	'LastUserLogin' => [ 'آخر_دخول_لليوزر' ],
+];
 
 /** Assamese (অসমীয়া) */
-$specialPageAliases['as'] = array(
-	'LastUserLogin' => array( 'সদস্যৰ_অন্তিম_প্ৰৱেশ' ),
-);
+$specialPageAliases['as'] = [
+	'LastUserLogin' => [ 'সদস্যৰ_অন্তিম_প্ৰৱেশ' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'LastUserLogin' => array( 'Letztmalige_Benutzeranmeldung' ),
-);
+$specialPageAliases['de'] = [
+	'LastUserLogin' => [ 'Letztmalige_Benutzeranmeldung' ],
+];
 
 /** Zazaki (Zazaki) */
-$specialPageAliases['diq'] = array(
-	'LastUserLogin' => array( 'PeyênDekewtışêKarberi' ),
-);
+$specialPageAliases['diq'] = [
+	'LastUserLogin' => [ 'PeyênDekewtışêKarberi' ],
+];
 
 /** Spanish (español) */
-$specialPageAliases['es'] = array(
-	'LastUserLogin' => array( 'Último_usuario_que_ha_entrado', 'Último_usuario_que_ha_iniciado_sesión' ),
-);
+$specialPageAliases['es'] = [
+	'LastUserLogin' => [ 'Último_usuario_que_ha_entrado', 'Último_usuario_que_ha_iniciado_sesión' ],
+];
 
 /** Persian (فارسی) */
-$specialPageAliases['fa'] = array(
-	'LastUserLogin' => array( 'آخرین_ورود_کاربر' ),
-);
+$specialPageAliases['fa'] = [
+	'LastUserLogin' => [ 'آخرین_ورود_کاربر' ],
+];
 
 /** Finnish (suomi) */
-$specialPageAliases['fi'] = array(
-	'LastUserLogin' => array( 'Viimeinen_sisäänkirjautuminen' ),
-);
+$specialPageAliases['fi'] = [
+	'LastUserLogin' => [ 'Viimeinen_sisäänkirjautuminen' ],
+];
 
 /** Galician (galego) */
-$specialPageAliases['gl'] = array(
-	'LastUserLogin' => array( 'Último_rexistro_de_usuario' ),
-);
+$specialPageAliases['gl'] = [
+	'LastUserLogin' => [ 'Último_rexistro_de_usuario' ],
+];
 
 /** Swiss German (Alemannisch) */
-$specialPageAliases['gsw'] = array(
-	'LastUserLogin' => array( 'Letschti_Benutzeraamäldig' ),
-);
+$specialPageAliases['gsw'] = [
+	'LastUserLogin' => [ 'Letschti_Benutzeraamäldig' ],
+];
 
 /** Haitian (Kreyòl ayisyen) */
-$specialPageAliases['ht'] = array(
-	'LastUserLogin' => array( 'KoneksyonDènyeItilizatè' ),
-);
+$specialPageAliases['ht'] = [
+	'LastUserLogin' => [ 'KoneksyonDènyeItilizatè' ],
+];
 
 /** Interlingua (interlingua) */
-$specialPageAliases['ia'] = array(
-	'LastUserLogin' => array( 'Ultime_session_de_usator' ),
-);
+$specialPageAliases['ia'] = [
+	'LastUserLogin' => [ 'Ultime_session_de_usator' ],
+];
 
 /** Indonesian (Bahasa Indonesia) */
-$specialPageAliases['id'] = array(
-	'LastUserLogin' => array( 'Log_masuk_terakhir', 'LogMasukTerakhir' ),
-);
+$specialPageAliases['id'] = [
+	'LastUserLogin' => [ 'Log_masuk_terakhir', 'LogMasukTerakhir' ],
+];
 
 /** Italian (italiano) */
-$specialPageAliases['it'] = array(
-	'LastUserLogin' => array( 'UltimoLogin' ),
-);
+$specialPageAliases['it'] = [
+	'LastUserLogin' => [ 'UltimoLogin' ],
+];
 
 /** Japanese (日本語) */
-$specialPageAliases['ja'] = array(
-	'LastUserLogin' => array( '利用者の最終ログイン', '最終利用者ログイン' ),
-);
+$specialPageAliases['ja'] = [
+	'LastUserLogin' => [ '利用者の最終ログイン', '最終利用者ログイン' ],
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'LastUserLogin' => array( '최근사용자로그인' ),
-);
+$specialPageAliases['ko'] = [
+	'LastUserLogin' => [ '최근사용자로그인' ],
+];
 
 /** Ladino (Ladino) */
-$specialPageAliases['lad'] = array(
-	'LastUserLogin' => array( 'DeAlcaboUsadorQueEntró' ),
-);
+$specialPageAliases['lad'] = [
+	'LastUserLogin' => [ 'DeAlcaboUsadorQueEntró' ],
+];
 
 /** Luxembourgish (Lëtzebuergesch) */
-$specialPageAliases['lb'] = array(
-	'LastUserLogin' => array( 'Leschte_Benotzer_Login' ),
-);
+$specialPageAliases['lb'] = [
+	'LastUserLogin' => [ 'Leschte_Benotzer_Login' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'LastUserLogin' => array( 'ПоследнаКорисничкаНајава' ),
-);
+$specialPageAliases['mk'] = [
+	'LastUserLogin' => [ 'ПоследнаКорисничкаНајава' ],
+];
 
 /** Malayalam (മലയാളം) */
-$specialPageAliases['ml'] = array(
-	'LastUserLogin' => array( 'അവസാന‌‌ഉപയോക്തൃപ്രവേശം' ),
-);
+$specialPageAliases['ml'] = [
+	'LastUserLogin' => [ 'അവസാന‌‌ഉപയോക്തൃപ്രവേശം' ],
+];
 
 /** Norwegian Bokmål (norsk bokmål) */
-$specialPageAliases['nb'] = array(
-	'LastUserLogin' => array( 'Siste_brukerinnlogging' ),
-);
+$specialPageAliases['nb'] = [
+	'LastUserLogin' => [ 'Siste_brukerinnlogging' ],
+];
 
 /** Low Saxon (Netherlands) (Nedersaksies) */
-$specialPageAliases['nds-nl'] = array(
-	'LastUserLogin' => array( 'Leste_gebrukersanmelding' ),
-);
+$specialPageAliases['nds-nl'] = [
+	'LastUserLogin' => [ 'Leste_gebrukersanmelding' ],
+];
 
 /** Dutch (Nederlands) */
-$specialPageAliases['nl'] = array(
-	'LastUserLogin' => array( 'LaasteGebruikeraanmelding' ),
-);
+$specialPageAliases['nl'] = [
+	'LastUserLogin' => [ 'LaasteGebruikeraanmelding' ],
+];
 
 /** Serbian Cyrillic (српски (ћирилица)) */
-$specialPageAliases['sr-ec'] = array(
-	'LastUserLogin' => array( 'Последња_корисничка_пријава' ),
-);
+$specialPageAliases['sr-ec'] = [
+	'LastUserLogin' => [ 'Последња_корисничка_пријава' ],
+];
 
 /** Serbian Latin (srpski (latinica)) */
-$specialPageAliases['sr-el'] = array(
-	'LastUserLogin' => array( 'Poslednja_korisnička_prijava' ),
-);
+$specialPageAliases['sr-el'] = [
+	'LastUserLogin' => [ 'Poslednja_korisnička_prijava' ],
+];
 
 /** Turkish (Türkçe) */
-$specialPageAliases['tr'] = array(
-	'LastUserLogin' => array( 'SonKullanıcıOturumAçma' ),
-);
+$specialPageAliases['tr'] = [
+	'LastUserLogin' => [ 'SonKullanıcıOturumAçma' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = array(
-	'LastUserLogin' => array( '最后登录' ),
-);
+$specialPageAliases['zh-hans'] = [
+	'LastUserLogin' => [ '最后登录' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$specialPageAliases['zh-hant'] = array(
-	'LastUserLogin' => array( '最後用戶登入' ),
-);
+$specialPageAliases['zh-hant'] = [
+	'LastUserLogin' => [ '最後用戶登入' ],
+];
