@@ -106,9 +106,11 @@ class LastUserLogin extends SpecialPage {
 		$out .= '<tr>';
 		// Invert the order.
 		$ordertype = ( $ordertype == 'ASC' ) ? 'DESC' : 'ASC';
+		$linkRenderer = $this->getLinkRenderer();
 		foreach ( $fields as $key => $value ) {
-			$href = $title->getLocalUrl( [ 'order_by' => $key, 'order_type' => $ordertype ] );
-			$out .= '<th>' . Html::element( 'a', [ 'href' => $href ], $this->msg( $value )->text() ) . '</th>';
+			$attrs = [ 'order_by' => $key, 'order_type' => $ordertype ];
+			$link = $linkRenderer->makeLink( $title, $this->msg( $value )->text(), [], $attrs );
+			$out .= '<th>' . $link . '</th>';
 		}
 		$out .= '<th>' . $this->msg( 'lastuserlogin-daysago' )->text() . '</th>';
 		$out .= '</tr>';
@@ -125,7 +127,7 @@ class LastUserLogin extends SpecialPage {
 					$out .= '<td style="text-align: right;">' . $daysAgo . '</td>';
 				} elseif ( $key === 'user_name' ) {
 					$userPage = Title::makeTitle( NS_USER, $row->$key );
-					$userName = Linker::link( $userPage, htmlspecialchars( $userPage->getText() ) );
+					$userName = $linkRenderer->makeLink( $userPage, $userPage->getText() );
 					$out .= '<td>' . $userName . '</td>';
 				} else {
 					$out .= '<td>' . htmlspecialchars( $row->$key ) . '</td>';
