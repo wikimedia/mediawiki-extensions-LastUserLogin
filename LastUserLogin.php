@@ -73,7 +73,8 @@ class LastUserLogin extends SpecialPage {
 			'user_name' => 'lastuserlogin-userid',
 			'user_real_name' => 'lastuserlogin-username',
 			'user_email' => 'lastuserlogin-useremail',
-			'user_touched' => 'lastuserlogin-lastlogin'
+			'user_email_authenticated' => 'lastuserlogin-useremailauthenticated',
+			'user_touched' => 'lastuserlogin-lastlogin',
 		];
 
 		// Get order_by and validate it
@@ -129,6 +130,8 @@ class LastUserLogin extends SpecialPage {
 					$userPage = Title::makeTitle( NS_USER, $row->$key );
 					$userName = $linkRenderer->makeLink( $userPage, $userPage->getText() );
 					$out .= '<td>' . $userName . '</td>';
+				} elseif ( $key === 'user_email_authenticated' ) {
+					$out .= Html::element( 'td', [],  $this->msg( 'htmlform-' . ( $row->$key ? 'yes' : 'no' ) ) );
 				} else {
 					$out .= '<td>' . htmlspecialchars( $row->$key ) . '</td>';
 				}

@@ -11,6 +11,7 @@
 	"lastuserlogin-userid": "Used as label on [[Special:LastUserLogin]]",
 	"lastuserlogin-username": "{{Identical|Real name}}",
 	"lastuserlogin-useremail": "Used as label on [[Special:LastUserLogin]]",
+	"lastuserlogin-useremailauthenticated": "used as label on [[Special:LastUserLogin]]",
 	"lastuserlogin-lastlogin": "Used as label on [[Special:LastUserLogin]]",
 	"lastuserlogin-daysago": "This message is used as a column header in a table.",
 	"lastuserlogin-nousers": "Used as error message on [[Special:LastUserLogin]]",
