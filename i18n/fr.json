@@ -12,6 +12,7 @@
 	"lastuserlogin-userid": "Nom d’utilisateur",
 	"lastuserlogin-username": "Vrai nom",
 	"lastuserlogin-useremail": "Adresse de courriel de l'utilisateur",
+	"lastuserlogin-useremailauthenticated": "Courriel authentifié ?",
 	"lastuserlogin-lastlogin": "Dernière connexion",
 	"lastuserlogin-daysago": "Jours dans le passé",
 	"lastuserlogin-nousers": "Aucun utilisateur trouvé.",

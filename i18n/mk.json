@@ -9,6 +9,7 @@
 	"lastuserlogin-userid": "Корисничко име",
 	"lastuserlogin-username": "Вистинско име",
 	"lastuserlogin-useremail": "Корисничка е-пошта",
+	"lastuserlogin-useremailauthenticated": "Е-поштата е заверена?",
 	"lastuserlogin-lastlogin": "Последна најава",
 	"lastuserlogin-daysago": "Пред (денови)",
 	"lastuserlogin-nousers": "Не пронајдов ниеден корисник.",
