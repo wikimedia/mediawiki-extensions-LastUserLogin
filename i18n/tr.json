@@ -3,6 +3,7 @@
 		"authors": [
 			"BaRaN6161 TURK",
 			"Emperyan",
+			"Hedda",
 			"Manco Capac",
 			"MuratTheTurkish",
 			"Watermelon juice"
@@ -13,6 +14,7 @@
 	"lastuserlogin-userid": "Kullanıcı adı",
 	"lastuserlogin-username": "Gerçek ad",
 	"lastuserlogin-useremail": "Kullanıcı e-postası",
+	"lastuserlogin-useremailauthenticated": "E-posta doğrulandı mı?",
 	"lastuserlogin-lastlogin": "Son çevrimiçi",
 	"lastuserlogin-daysago": "Kaç gün önce",
 	"lastuserlogin-nousers": "Kullanıcı bulunamadı.",
