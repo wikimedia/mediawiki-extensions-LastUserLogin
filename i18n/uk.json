@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DDPAT",
 			"NickK",
 			"Prima klasy4na",
 			"Vlad5250",
@@ -12,6 +13,7 @@
 	"lastuserlogin-userid": "Ім'я користувача",
 	"lastuserlogin-username": "Справжнє ім'я",
 	"lastuserlogin-useremail": "Електронна пошта користувача",
+	"lastuserlogin-useremailauthenticated": "Електронна пошта автентифікована?",
 	"lastuserlogin-lastlogin": "Останній вхід до системи",
 	"lastuserlogin-daysago": "Днів тому",
 	"lastuserlogin-nousers": "Користувачів не знайдено.",
