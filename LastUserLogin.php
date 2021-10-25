@@ -58,7 +58,7 @@ class LastUserLogin extends SpecialPage {
 		$output = $this->getOutput();
 		$lang = $this->getLanguage();
 
-		if ( $user->isBlocked() ) {
+		if ( $user->getBlock() ) {
 			throw new UserBlockedError( $user->getBlock() );
 		}
 
