@@ -5,7 +5,8 @@
 			"Hosiryuhosi",
 			"Naohiro19",
 			"Otokoume",
-			"Shirayuki"
+			"Shirayuki",
+			"MathXplore"
 		]
 	},
 	"lastuserlogin": "利用者の最終ログイン",
@@ -16,6 +17,6 @@
 	"lastuserlogin-lastlogin": "最終ログイン",
 	"lastuserlogin-daysago": "経過日数",
 	"lastuserlogin-nousers": "利用者が見つかりませんでした。",
-	"action-lastlogin": "利用者が最後にログインした日時を閲覧",
-	"right-lastlogin": "利用者が最後にログインした日時を閲覧"
+	"action-lastlogin": "利用者の最終ログイン日時の閲覧",
+	"right-lastlogin": "利用者の最終ログイン日時を閲覧"
 }

@@ -4,17 +4,19 @@
 			"BaRaN6161 TURK",
 			"Emperyan",
 			"Manco Capac",
-			"Watermelon juice"
+			"Watermelon juice",
+			"Hedda",
+			"MuratTheTurkish"
 		]
 	},
 	"lastuserlogin": "Son çevrimiçi olan kullanıcı",
-	"lastuserlogin-desc": "Kullanıcının en son çevrimiçi olduğunu zamanı gösterir",
+	"lastuserlogin-desc": "Bir kullanıcının en son ne zaman oturum açtığını gösterir",
 	"lastuserlogin-userid": "Kullanıcı adı",
 	"lastuserlogin-username": "Gerçek ad",
-	"lastuserlogin-useremail": "Kullanıcı epostası",
+	"lastuserlogin-useremail": "Kullanıcı e-postası",
 	"lastuserlogin-lastlogin": "Son çevrimiçi",
 	"lastuserlogin-daysago": "Kaç gün önce",
 	"lastuserlogin-nousers": "Kullanıcı bulunamadı.",
-	"action-lastlogin": "bir kullanıcının en son giriş yaptığı zamanı görüntüle",
-	"right-lastlogin": "Bir kullanıcının çevrimiçi olduğu en son zamanı göster"
+	"action-lastlogin": "bir kullanıcının en son oturum açtığı zamanı görüntüle",
+	"right-lastlogin": "Bir kullanıcının en son oturum açtığı zamanı görüntüle"
 }
