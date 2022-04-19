@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DiegoAmbrocio",
 			"Fitoschido",
 			"Indiralena",
 			"Jackiezelaya",
@@ -13,8 +14,10 @@
 	"lastuserlogin-userid": "Nombre de usuario",
 	"lastuserlogin-username": "Nombre real",
 	"lastuserlogin-useremail": "Correo electrónico del usuario",
+	"lastuserlogin-useremailauthenticated": "¿Correo electrónico autentificado?",
 	"lastuserlogin-lastlogin": "Último acceso",
 	"lastuserlogin-daysago": "Días atrás",
 	"lastuserlogin-nousers": "No se encontró ningún usuario.",
+	"action-lastlogin": "ver la última vez que un usuario se conectó",
 	"right-lastlogin": "Ver la última vez que un usuario se conectó"
 }
