@@ -4,7 +4,9 @@
 			"Fitoschido",
 			"Indiralena",
 			"Translationista",
-			"Tusca"
+			"Tusca",
+			"DiegoAmbrocio",
+			"Jackiezelaya"
 		]
 	},
 	"lastuserlogin": "Último acceso de usuario",
@@ -15,5 +17,6 @@
 	"lastuserlogin-lastlogin": "Último acceso",
 	"lastuserlogin-daysago": "Días atrás",
 	"lastuserlogin-nousers": "No se encontró ningún usuario.",
+	"action-lastlogin": "ver la última vez que un usuario se conectó",
 	"right-lastlogin": "Ver la última vez que un usuario se conectó"
 }
