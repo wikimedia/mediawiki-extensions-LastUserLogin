@@ -11,6 +11,7 @@
 	"lastuserlogin-userid": "Brukernavn",
 	"lastuserlogin-username": "Virkelig navn",
 	"lastuserlogin-useremail": "Bruker-e-post",
+	"lastuserlogin-useremailauthenticated": "E-post autentisert?",
 	"lastuserlogin-lastlogin": "Siste innlogging",
 	"lastuserlogin-daysago": "Dager siden",
 	"lastuserlogin-nousers": "Ingen brukere funnet.",
