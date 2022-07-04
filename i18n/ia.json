@@ -6,11 +6,13 @@
 		]
 	},
 	"lastuserlogin": "Ultime apertura de session",
-	"lastuserlogin-desc": "Monstra le ultime vice que un usator aperiva un session",
+	"lastuserlogin-desc": "Monstra le ultime vice que un usator ha aperite session",
 	"lastuserlogin-userid": "Nomine del usator",
 	"lastuserlogin-username": "Nomine real",
 	"lastuserlogin-useremail": "Adresse de e-posta",
 	"lastuserlogin-lastlogin": "Ultime apertura de session",
 	"lastuserlogin-daysago": "Dies retro",
-	"right-lastlogin": "Vider le ultime vice que un usator aperiva un session"
+	"lastuserlogin-nousers": "Nulle usator trovate.",
+	"action-lastlogin": "vider le ultime vice que un usator ha aperite session",
+	"right-lastlogin": "Vider le ultime vice que un usator ha aperite session"
 }
