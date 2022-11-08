@@ -11,6 +11,7 @@
 	"lastuserlogin-userid": "اسم المستخدم",
 	"lastuserlogin-username": "الاسم الحقيقي",
 	"lastuserlogin-useremail": "بريد المستخدم الإلكتروني",
+	"lastuserlogin-useremailauthenticated": "مصادقة البريد الإلكتروني؟",
 	"lastuserlogin-lastlogin": "آخر تسجيل دخول",
 	"lastuserlogin-daysago": "الأيام الماضية",
 	"lastuserlogin-nousers": "لم يتم العثور على أي مستخدم.",
