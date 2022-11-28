@@ -3,7 +3,8 @@
 		"authors": [
 			"Guycn2",
 			"LaG roiL",
-			"YaronSh"
+			"YaronSh",
+			"Amire80"
 		]
 	},
 	"lastuserlogin": "כניסת המשתמש האחרונה",
@@ -14,5 +15,6 @@
 	"lastuserlogin-lastlogin": "הכניסה האחרונה",
 	"lastuserlogin-daysago": "ימים מאז",
 	"lastuserlogin-nousers": "לא נמצאו משתמשים.",
+	"action-lastlogin": "לצפות במועד האחרון שמשתמש מסוים נכנס לחשבון",
 	"right-lastlogin": "צפייה במועד האחרון שמשתמש מסוים נכנס לחשבון"
 }
