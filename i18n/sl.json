@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"lastuserlogin": "Zadnja prijava uporabnika",
+	"lastuserlogin-desc": "Prikaže čas, ko se je uporabnik prijavil zadnjič",
+	"lastuserlogin-userid": "Uporabniško ime",
+	"lastuserlogin-username": "Pravo ime",
+	"lastuserlogin-useremail": "E-poštni naslov",
+	"lastuserlogin-useremailauthenticated": "Potrjen e-poštni naslov?",
+	"lastuserlogin-lastlogin": "Zadnja prijava",
+	"lastuserlogin-daysago": "Dni nazaj",
+	"lastuserlogin-nousers": "Ni najdenih uporabnikov.",
+	"action-lastlogin": "ogledovanje časa, ki se je uporabnik zadnjič prijavil",
+	"right-lastlogin": "Ogledovanje časa, ko se je uporabnik zadnjič prijavil"
+}
