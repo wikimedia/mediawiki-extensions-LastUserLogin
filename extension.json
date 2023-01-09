@@ -12,7 +12,7 @@
 	"license-name": "GPL-3.0-or-later",
 	"type": "specialpage",
 	"requires": {
-		"MediaWiki": ">= 1.29.0"
+		"MediaWiki": ">= 1.35.0"
 	},
 	"AvailableRights": [
 		"lastlogin"
@@ -23,7 +23,7 @@
 		}
 	},
 	"SpecialPages": {
-		"LastUserLogin": "LastUserLogin"
+		"LastUserLogin": "MediaWiki\\Extension\\LastUserLogin\\SpecialLastUserLogin"
 	},
 	"MessagesDirs": {
 		"LastUserLogin": [
@@ -33,11 +33,16 @@
 	"ExtensionMessagesFiles": {
 		"LastUserLoginAlias": "LastUserLogin.alias.php"
 	},
-	"AutoloadClasses": {
-		"LastUserLogin": "LastUserLogin.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\LastUserLogin\\": "src/"
 	},
 	"Hooks": {
-		"BeforeInitialize": "LastUserLogin::onBeforeInitialize"
+		"BeforeInitialize": "LastUserLogin"
+	},
+	"HookHandlers": {
+		"LastUserLogin": {
+			"class": "\\MediaWiki\\Extension\\LastUserLogin\\Hooks"
+		}
 	},
 	"manifest_version": 2
 }

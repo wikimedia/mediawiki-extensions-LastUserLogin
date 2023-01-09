@@ -1,4 +1,12 @@
 <?php
+
+namespace MediaWiki\Extension\LastUserLogin;
+
+use Html;
+use SpecialPage;
+use Title;
+use UserBlockedError;
+
 /**
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,33 +26,12 @@
  * @file
  */
 
-class LastUserLogin extends SpecialPage {
+class SpecialLastUserLogin extends SpecialPage {
 	/**
 	 * Constructor
 	 */
 	public function __construct() {
 		parent::__construct( 'LastUserLogin', 'lastlogin' );
-	}
-
-	/**
-	 * Updates the database when a user logs in
-	 * @param Title &$title
-	 * @param mixed $unused
-	 * @param OutputPage $output
-	 * @param User $user
-	 * @param WebRequest $request
-	 * @param MediaWiki $mediaWiki
-	 */
-	public static function onBeforeInitialize(
-		Title &$title, $unused, OutputPage $output, User $user, WebRequest $request, MediaWiki $mediaWiki
-	) {
-		if ( !$request->wasPosted() ) {
-			$userUpdate = $user->getInstanceForUpdate();
-			if ( $userUpdate ) {
-				$userUpdate->touch();
-				$userUpdate->saveSettings();
-			}
-		}
 	}
 
 	/**
