@@ -4,18 +4,19 @@
 			"Crochet.david",
 			"Gomoko",
 			"IAlex",
-			"Thibaut120094"
+			"Thibaut120094",
+			"Verdy p"
 		]
 	},
-	"lastuserlogin": "Dernière connexion des utilisateurs",
-	"lastuserlogin-desc": "Affiche la dernière fois qu'un utilisateur s'est connecté",
+	"lastuserlogin": "Dernière connexion de l’utilisateur",
+	"lastuserlogin-desc": "Affiche la dernière fois qu’un utilisateur s’est connecté",
 	"lastuserlogin-userid": "Nom d’utilisateur",
 	"lastuserlogin-username": "Vrai nom",
-	"lastuserlogin-useremail": "Adresse de courriel de l'utilisateur",
-	"lastuserlogin-useremailauthenticated": "Courriel authentifié ?",
+	"lastuserlogin-useremail": "Adresse de courriel de l’utilisateur",
+	"lastuserlogin-useremailauthenticated": "Adresse de courriel authentifiée ?",
 	"lastuserlogin-lastlogin": "Dernière connexion",
 	"lastuserlogin-daysago": "Jours dans le passé",
 	"lastuserlogin-nousers": "Aucun utilisateur trouvé.",
-	"action-lastlogin": "afficher le dernier horodatage de connexion de l’utilisateur",
-	"right-lastlogin": "Voir la dernière fois qu'un utilisateur s'est connecté"
+	"action-lastlogin": "afficher le dernier horodatage de connexion d’un utilisateur",
+	"right-lastlogin": "Afficher la dernière fois qu’un utilisateur s’est connecté"
 }
