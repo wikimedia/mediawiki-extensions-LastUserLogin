@@ -1,11 +1,17 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Nokeoo"
+		]
 	},
 	"lastuserlogin": "Paskutinis naudotojo prisijungimas",
+	"lastuserlogin-desc": "Rodo paskutinį naudotojo prisijungimą",
 	"lastuserlogin-userid": "Naudotojo vardas",
 	"lastuserlogin-username": "Tikras vardas",
 	"lastuserlogin-useremail": "Naudotojo el. paštas",
 	"lastuserlogin-lastlogin": "Paskutinis prisijungimas",
-	"lastuserlogin-daysago": "Dienų prieš"
+	"lastuserlogin-daysago": "Dienų prieš",
+	"lastuserlogin-nousers": "Nerasta jokių naudotojų.",
+	"action-lastlogin": "peržiūrėti kada paskutinį kartą naudotojas prisijungė",
+	"right-lastlogin": "Peržiūrėti kada paskutinį kartą naudotojas prisijungė"
 }
