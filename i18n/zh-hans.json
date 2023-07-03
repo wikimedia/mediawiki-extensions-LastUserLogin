@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Gaoxuewei",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"GuoPC",
+			"U.T."
 		]
 	},
 	"lastuserlogin": "最后一次用户登录",
@@ -13,5 +15,6 @@
 	"lastuserlogin-lastlogin": "最后一次登录",
 	"lastuserlogin-daysago": "天之前",
 	"lastuserlogin-nousers": "找不到用户。",
+	"action-lastlogin": "查看用户最后一次登录时间",
 	"right-lastlogin": "查看用户最后一次登录时间"
 }
