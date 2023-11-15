@@ -3,7 +3,8 @@
 		"authors": [
 			"Esketti",
 			"Mainframe98",
-			"Siebrand"
+			"Siebrand",
+			"McDutchie"
 		]
 	},
 	"lastuserlogin": "Laatste aanmeldingen van gebruikers",
@@ -11,6 +12,7 @@
 	"lastuserlogin-userid": "Gebruikersnaam",
 	"lastuserlogin-username": "Echte naam",
 	"lastuserlogin-useremail": "E-mail",
+	"lastuserlogin-useremailauthenticated": "E-mail geverifieerd?",
 	"lastuserlogin-lastlogin": "Laatste aanmelding",
 	"lastuserlogin-daysago": "Aantal dagen geleden",
 	"lastuserlogin-nousers": "Geen gebruikers gevonden.",
