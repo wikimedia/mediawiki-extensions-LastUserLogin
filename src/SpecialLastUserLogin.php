@@ -118,7 +118,7 @@ class SpecialLastUserLogin extends SpecialPage {
 					$userName = $linkRenderer->makeLink( $userPage, $userPage->getText() );
 					$out .= '<td>' . $userName . '</td>';
 				} elseif ( $key === 'user_email_authenticated' ) {
-					$out .= Html::element( 'td', [],  $this->msg( 'htmlform-' . ( $row->$key ? 'yes' : 'no' ) ) );
+					$out .= Html::element( 'td', [], $this->msg( 'htmlform-' . ( $row->$key ? 'yes' : 'no' ) ) );
 				} else {
 					$out .= '<td>' . htmlspecialchars( $row->$key ) . '</td>';
 				}
