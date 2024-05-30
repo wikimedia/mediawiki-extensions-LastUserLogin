@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aalam"
+			"Aalam",
+			"Cabal"
 		]
 	},
-	"lastuserlogin": "ਆਖਰੀ ਯੂਜ਼ਰ ਲਾਗਇਣ",
+	"lastuserlogin": "ਆਖਰੀ ਵਰਤੋਂਕਾਰ ਦਾਖ਼ਲਾ",
 	"lastuserlogin-desc": "ਯੂਜ਼ਰ ਵਲੋਂ ਲਾਗਇਨ ਕਰਨ ਦਾ ਆਖਰੀ ਸਮਾਂ ਵੇਖੋ",
 	"lastuserlogin-userid": "ਯੂਜ਼ਰ ਨਾਂ",
 	"lastuserlogin-username": "ਅਸਲੀ ਨਾਂ",
