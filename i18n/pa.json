@@ -6,11 +6,11 @@
 		]
 	},
 	"lastuserlogin": "ਆਖਰੀ ਵਰਤੋਂਕਾਰ ਦਾਖ਼ਲਾ",
-	"lastuserlogin-desc": "ਯੂਜ਼ਰ ਵਲੋਂ ਲਾਗਇਨ ਕਰਨ ਦਾ ਆਖਰੀ ਸਮਾਂ ਵੇਖੋ",
-	"lastuserlogin-userid": "ਯੂਜ਼ਰ ਨਾਂ",
+	"lastuserlogin-desc": "ਪਿਛਲੀ ਵਾਰ ਦਾਖਲ ਹੋਏ ਵਰਤੋਂਕਾਰ ਨੂੰ ਵਿਖਾਂਦਾ ਹੈ",
+	"lastuserlogin-userid": "ਵਰਤੋਂਕਾਰ-ਨਾਂ",
 	"lastuserlogin-username": "ਅਸਲੀ ਨਾਂ",
-	"lastuserlogin-useremail": "ਯੂਜ਼ਰ ਈਮੇਲ",
+	"lastuserlogin-useremail": "ਵਰਤੋਂਕਾਰ ਈਮੇਲ",
 	"lastuserlogin-lastlogin": "ਆਖਰੀ ਲਾਗਇਨ",
 	"lastuserlogin-daysago": "ਦਿਨ ਪਹਿਲਾਂ",
-	"right-lastlogin": "ਪਿਛਲੀ ਵਾਰ ਲਾਗਇਨ ਹੋਏ ਯੂਜ਼ਰ ਨੂੰ ਵੇਖੋ"
+	"right-lastlogin": "ਪਿਛਲੀ ਵਾਰ ਦਾਖਲ ਹੋਏ ਵਰਤੋਂਕਾਰ ਨੂੰ ਵੇਖੋ"
 }
