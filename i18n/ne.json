@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"पर्वत सुबेदी"
+		]
+	},
+	"lastuserlogin": "अन्तिम प्रयोगकर्ता प्रवेश कार्य",
+	"lastuserlogin-desc": "प्रयोगकर्ता अन्तिम पटक प्रवेश गरेको समय देखाउँछ",
+	"lastuserlogin-userid": "प्रयोगकर्ता नाम",
+	"lastuserlogin-username": "वास्तविक नाम",
+	"lastuserlogin-useremail": "प्रयोगकर्ता इमेल",
+	"lastuserlogin-useremailauthenticated": "इमेल प्रमाणित?",
+	"lastuserlogin-lastlogin": "अन्तिम प्रवेश कार्य",
+	"lastuserlogin-daysago": "दिन अगाडि",
+	"lastuserlogin-nousers": "कुनै प्रयोगकर्ताहरू फेला परेनन्।",
+	"action-lastlogin": "प्रयोगकर्ताले अन्तिम पटक प्रवेश गरेको समय हेर्नुहोस्",
+	"right-lastlogin": "प्रयोगकर्ताले अन्तिम पटक प्रवेश गरेको समय हेर्नुहोस्"
+}
