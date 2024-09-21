@@ -3,6 +3,7 @@
 namespace MediaWiki\Extension\LastUserLogin;
 
 use Html;
+use MediaWiki\MediaWikiServices;
 use SpecialPage;
 use Title;
 use UserBlockedError;
@@ -77,7 +78,7 @@ class SpecialLastUserLogin extends SpecialPage {
 		}
 
 		// Get ALL users, paginated
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 		$result = $dbr->select(
 			'user', array_keys( $fields ), '', __METHOD__, [ 'ORDER BY' => $orderby . ' ' . $ordertype ]
 		);
