@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"GianAntonucci"
 		]
 	},
 	"lastuserlogin-userid": "Nomu utenti",
 	"lastuserlogin-username": "Nomu veru",
 	"lastuserlogin-useremail": "Email utenti",
 	"lastuserlogin-lastlogin": "Ùrtimu accessu",
-	"lastuserlogin-daysago": "Jorna fa",
+	"lastuserlogin-daysago": "Jorna arrè",
 	"lastuserlogin-nousers": "Nuḍḍu utenti attruvatu."
 }
