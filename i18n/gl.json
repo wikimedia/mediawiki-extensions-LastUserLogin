@@ -11,8 +11,10 @@
 	"lastuserlogin-userid": "Nome de usuario",
 	"lastuserlogin-username": "Nome real",
 	"lastuserlogin-useremail": "Correo electrónico do usuario",
+	"lastuserlogin-useremailauthenticated": "O correo electrónico está autenticado?",
 	"lastuserlogin-lastlogin": "Último acceso",
 	"lastuserlogin-daysago": "Días atrás",
 	"lastuserlogin-nousers": "Non se atopou ningún usuario.",
+	"action-lastlogin": "ver a última vez que un usuario se conectou",
 	"right-lastlogin": "Ver a última vez que un usuario se conectou"
 }
