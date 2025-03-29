@@ -2,10 +2,10 @@
 
 namespace MediaWiki\Extension\LastUserLogin;
 
-use Html;
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use SpecialPage;
-use Title;
 use UserBlockedError;
 
 /**
