@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"रोहित रावत"
+			"रोहित रावत",
+			"Saurmandal"
 		]
 	},
 	"lastuserlogin": "अन्तिम प्रयोक्ता लॉगिन",
@@ -11,5 +12,6 @@
 	"lastuserlogin-useremail": "प्रयोक्ता ईमेल",
 	"lastuserlogin-lastlogin": "अन्तिम लॉगिन",
 	"lastuserlogin-daysago": "दिन पहले",
-	"right-lastlogin": "किसी प्रयोक्ता के अन्तिम लॉगिन को देखें"
+	"action-lastlogin": "किसी सदस्य के अंतिम लॉग-इन का समय देखने",
+	"right-lastlogin": "किसी सदस्य के अंतिम लॉग-इन का समय देखना"
 }
