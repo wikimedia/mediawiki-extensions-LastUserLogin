@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anterdc99"
+		]
+	},
+	"lastuserlogin": "最後一次用戶登入",
+	"lastuserlogin-desc": "顯示用戶最後一次登入的時間",
+	"lastuserlogin-userid": "用戶名稱",
+	"lastuserlogin-useremail": "用戶電子郵件",
+	"lastuserlogin-nousers": "查無用戶。",
+	"action-lastlogin": "檢視用戶最後一次登入時間",
+	"right-lastlogin": "檢視用戶最後一次登入時間"
+}
