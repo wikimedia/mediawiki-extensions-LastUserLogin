@@ -1,11 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
-	"lastuserlogin-userid": "کارن-نوم",
+	"lastuserlogin": "د کارن وروستۍ ننوتنه",
+	"lastuserlogin-desc": "د کارن وروستي ځل ننوتنه ښکاره کوي",
+	"lastuserlogin-userid": "کارن‌نوم",
 	"lastuserlogin-username": "اصلي نوم",
 	"lastuserlogin-useremail": "د کارن برېښليک",
-	"lastuserlogin-daysago": "ورځې دمخه"
+	"lastuserlogin-useremailauthenticated": "برېښليک تاييد شوی دی؟",
+	"lastuserlogin-lastlogin": "وروستۍ ننوتنه",
+	"lastuserlogin-daysago": "ورځې دمخه",
+	"lastuserlogin-nousers": "هېڅ کارنان ونه موندل شول.",
+	"action-lastlogin": "د کارن وروستي ځل ننوتنه کتل",
+	"right-lastlogin": "د کارن وروستي ځل ننوتنه کتل"
 }
