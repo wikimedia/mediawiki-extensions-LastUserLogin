@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
 	"lastuserlogin": "Posljednja prijava korisnika",
@@ -11,7 +12,7 @@
 	"lastuserlogin-useremail": "Korisnički e-mail",
 	"lastuserlogin-lastlogin": "Posljednja prijava",
 	"lastuserlogin-daysago": "Protekli dani",
-	"lastuserlogin-nousers": "Nisam pronašao nijednog korisnika.",
+	"lastuserlogin-nousers": "Nijedan korisnik nije pronađen.",
 	"action-lastlogin": "pregled kada se korisnik posljednji put prijavio",
 	"right-lastlogin": "Pregled kada se korisnik posljednji put prijavio"
 }
