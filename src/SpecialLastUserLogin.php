@@ -3,10 +3,10 @@
 namespace MediaWiki\Extension\LastUserLogin;
 
 use MediaWiki\Html\Html;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use SpecialPage;
 use UserBlockedError;
+use Wikimedia\Rdbms\IConnectionProvider;
 
 /**
  * This program is free software; you can redistribute it and/or modify
@@ -31,7 +31,9 @@ class SpecialLastUserLogin extends SpecialPage {
 	/**
 	 * Constructor
 	 */
-	public function __construct() {
+	public function __construct(
+		private readonly IConnectionProvider $dbProvider,
+	) {
 		parent::__construct( 'LastUserLogin' );
 	}
 
@@ -83,7 +85,7 @@ class SpecialLastUserLogin extends SpecialPage {
 		}
 
 		// Get ALL users, paginated
-		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
+		$dbr = $this->dbProvider->getReplicaDatabase();
 		$result = $dbr->select(
 			'user', array_keys( $fields ), 'user_is_temp = 0', __METHOD__, [ 'ORDER BY' => $orderby . ' ' . $ordertype ]
 		);

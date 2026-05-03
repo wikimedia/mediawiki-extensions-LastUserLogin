@@ -23,7 +23,12 @@
 		}
 	},
 	"SpecialPages": {
-		"LastUserLogin": "MediaWiki\\Extension\\LastUserLogin\\SpecialLastUserLogin"
+		"LastUserLogin": {
+			"class": "MediaWiki\\Extension\\LastUserLogin\\SpecialLastUserLogin",
+			"services": [
+				"ConnectionProvider"
+			]
+		}
 	},
 	"MessagesDirs": {
 		"LastUserLogin": [
