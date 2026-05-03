@@ -87,6 +87,7 @@ class SpecialLastUserLogin extends SpecialPage {
 		// Get ALL users, paginated
 		$dbr = $this->dbProvider->getReplicaDatabase();
 		$result = $dbr->select(
+			// @phan-suppress-next-line SecurityCheck-SQLInjection The $orderby is validated above
 			'user', array_keys( $fields ), 'user_is_temp = 0', __METHOD__, [ 'ORDER BY' => $orderby . ' ' . $ordertype ]
 		);
 		if ( $result === false ) {
