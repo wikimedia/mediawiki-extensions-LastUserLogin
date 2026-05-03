@@ -32,7 +32,12 @@ class SpecialLastUserLogin extends SpecialPage {
 	 * Constructor
 	 */
 	public function __construct() {
-		parent::__construct( 'LastUserLogin', 'lastlogin' );
+		parent::__construct( 'LastUserLogin' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'lastlogin';
 	}
 
 	/**
