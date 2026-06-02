@@ -3,9 +3,14 @@
 namespace MediaWiki\Extension\LastUserLogin;
 
 use MediaWiki\Hook\BeforeInitializeHook;
-use MediaWiki\MediaWikiServices;
+use MediaWiki\User\Options\UserOptionsManager;
 
 class Hooks implements BeforeInitializeHook {
+
+	public function __construct(
+		private readonly UserOptionsManager $userOptionsManager,
+	) {
+	}
 
 	/**
 	 * @inheritDoc
@@ -15,9 +20,7 @@ class Hooks implements BeforeInitializeHook {
 			return;
 		}
 
-		$userOptionsManager = MediaWikiServices::getInstance()->get( 'UserOptionsManager' );
-
-		$userOptionsManager->setOption( $user, 'lastuserlogin-lastseen', wfTimestampNow() );
-		$userOptionsManager->saveOptions( $user );
+		$this->userOptionsManager->setOption( $user, 'lastuserlogin-lastseen', wfTimestampNow() );
+		$this->userOptionsManager->saveOptions( $user );
 	}
 }

@@ -46,7 +46,10 @@
 	},
 	"HookHandlers": {
 		"LastUserLogin": {
-			"class": "\\MediaWiki\\Extension\\LastUserLogin\\Hooks"
+			"class": "\\MediaWiki\\Extension\\LastUserLogin\\Hooks",
+			"services": [
+				"UserOptionsManager"
+			]
 		}
 	},
 	"manifest_version": 2
