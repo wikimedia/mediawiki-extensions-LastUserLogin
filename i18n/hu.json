@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Dani",
+			"Dj",
 			"Tacsipacsi"
 		]
 	},
@@ -10,7 +11,10 @@
 	"lastuserlogin-userid": "Felhasználónév",
 	"lastuserlogin-username": "Valódi név",
 	"lastuserlogin-useremail": "E-mail-cím",
+	"lastuserlogin-useremailauthenticated": "E-mail hitelesítve?",
 	"lastuserlogin-lastlogin": "Legutóbbi bejelentkezés",
 	"lastuserlogin-daysago": "nappal ezelőtt",
+	"lastuserlogin-nousers": "Nem található ilyen szerkesztő.",
+	"action-lastlogin": "a felhasználó legutóbbi bejelentkezési idejének megtekintése",
 	"right-lastlogin": "a felhasználó legutóbbi bejelentkezési idejének megtekintése"
 }
