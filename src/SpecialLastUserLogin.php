@@ -2,10 +2,10 @@
 
 namespace MediaWiki\Extension\LastUserLogin;
 
+use MediaWiki\Exception\UserBlockedError;
 use MediaWiki\Html\Html;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
-use SpecialPage;
-use UserBlockedError;
 use Wikimedia\Rdbms\IConnectionProvider;
 
 /**
