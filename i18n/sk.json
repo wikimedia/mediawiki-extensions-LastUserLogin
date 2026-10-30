@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"lastuserlogin": "Posledné prihlásenie používateľa",
+	"lastuserlogin-desc": "Zobrazuje, kedy sa používateľ naposledy prihlásil",
+	"lastuserlogin-userid": "Používateľské meno",
+	"lastuserlogin-username": "Skutočné meno",
+	"lastuserlogin-useremail": "E-mail používateľa",
+	"lastuserlogin-useremailauthenticated": "E-mail overený?",
+	"lastuserlogin-lastlogin": "Posledné prihlásenie",
+	"lastuserlogin-daysago": "Pred dňami",
+	"lastuserlogin-nousers": "Nenašli sa žiadni používatelia.",
+	"action-lastlogin": "zobraziť, kedy sa používateľ naposledy prihlásil",
+	"right-lastlogin": "Zobrazenie času posledného prihlásenia používateľa"
+}
